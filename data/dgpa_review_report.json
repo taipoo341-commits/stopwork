@@ -5,14 +5,14 @@
   "phase": "review",
   "parserVersion": "4-eca37b4bf5578172",
   "startedAt": "2026-10-28T18:22:26.495557+08:00",
-  "updatedAt": "2026-10-28T22:14:33.115058+08:00",
+  "updatedAt": "2026-10-28T22:14:47.083798+08:00",
   "completedAt": null,
   "counts": {
     "total": 503,
-    "completed": 117,
+    "completed": 127,
     "failed": 0,
-    "pending": 386,
-    "manualItems": 37
+    "pending": 376,
+    "manualItems": 46
   },
   "scan": {
     "nextPage": 1,
@@ -9862,61 +9862,926 @@
       "pid": "12029",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=12029",
       "title": "113.09.09 113年9月8日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:14:36.576887+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 9,
+        "day": 8
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 9,
+          "day": 8
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202409/79bf7070-3829-49d2-82bf-a749ea13db5a.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 9,
+            "day": 8
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-09-08T21:13:14",
+          "sha256": "4ab621dcab97e24f80a6c6134bdcf983912a6ffa843791fb3e4368f48ae19aac",
+          "rawRegionTexts": {},
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "not-listed"
+          }
+        }
+      ],
+      "observations": [],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "not-listed"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": ""
+      },
+      "detailSha256": "ad565a59bc2934b5184f4d369733b04085dcad4f1986e20b2bdfdd07a8c92075",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "12007",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=12007",
       "title": "113.08.09 113年8月8日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:14:37.667597+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 8,
+        "day": 8
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 8,
+          "day": 8
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/4fa7433a-0179-4414-9347-84012d9fd20e.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 8
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-08-08T19:32:15",
+          "sha256": "687e6a28935f43aaeef434601a75f6f40050dd7c04fc0c899566f6faaf80923a",
+          "rawRegionTexts": {
+            "高雄市": "高雄市桃源區寶山里:明天停止上班、停止上課。"
+          },
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "manual-closure-type"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "12007",
+          "date": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 8
+          },
+          "region": "高雄市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "2024-08-08T19:32:15",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/4fa7433a-0179-4414-9347-84012d9fd20e.html&nfix=&name=nds.html",
+          "rawText": "高雄市桃源區寶山里:明天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 8,
+            "region": "高雄市",
+            "officialText": "高雄市桃源區寶山里:明天停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12007",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/4fa7433a-0179-4414-9347-84012d9fd20e.html&nfix=&name=nds.html",
+            "pid": "12007",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        }
+      ],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "manual-closure-type"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": "高雄市桃源區寶山里:明天停止上班、停止上課。"
+      },
+      "detailSha256": "dbe53d9c1ab15ec71432edc87573dc4da2f01031b0e93fc9374c7376d22fdc2c",
+      "events": [],
+      "reviewItems": [
+        {
+          "rocYear": 113,
+          "month": 8,
+          "day": 8,
+          "region": "高雄市",
+          "officialText": "高雄市桃源區寶山里:明天停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12007",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/4fa7433a-0179-4414-9347-84012d9fd20e.html&nfix=&name=nds.html",
+          "pid": "12007",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        }
+      ],
+      "attempts": 1
     },
     {
       "pid": "12003",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=12003",
       "title": "113.08.06 113年8月5日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:14:38.768490+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 8,
+        "day": 5
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 8,
+          "day": 5
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/cab01f87-f6be-4860-aa73-ca318a5c4cdc.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 5
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-08-05T00:08:11",
+          "sha256": "5aa53abe186940ed520123ccd36fcdc620717c4e701c0063a15cc55826a4e6ff",
+          "rawRegionTexts": {
+            "高雄市": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區復興里:今天停止上班、停止上課。"
+          },
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "manual-closure-type"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "12003",
+          "date": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 5
+          },
+          "region": "高雄市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "2024-08-05T00:08:11",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/cab01f87-f6be-4860-aa73-ca318a5c4cdc.html&nfix=&name=nds.html",
+          "rawText": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區復興里:今天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 5,
+            "region": "高雄市",
+            "officialText": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。高雄市桃源區梅山里:今天停止上班、停止上課。高雄市桃源區復興里:今天停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12003",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/cab01f87-f6be-4860-aa73-ca318a5c4cdc.html&nfix=&name=nds.html",
+            "pid": "12003",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        }
+      ],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "manual-closure-type"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區復興里:今天停止上班、停止上課。"
+      },
+      "detailSha256": "2af89bc30bc139f5ba5239efbf17b13356ed92307946e1d169668de2e79324be",
+      "events": [],
+      "reviewItems": [
+        {
+          "rocYear": 113,
+          "month": 8,
+          "day": 5,
+          "region": "高雄市",
+          "officialText": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。高雄市桃源區梅山里:今天停止上班、停止上課。高雄市桃源區復興里:今天停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12003",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/cab01f87-f6be-4860-aa73-ca318a5c4cdc.html&nfix=&name=nds.html",
+          "pid": "12003",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        }
+      ],
+      "attempts": 1
     },
     {
       "pid": "12002",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=12002",
       "title": "113.08.05 113年8月4日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:14:39.881777+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 8,
+        "day": 4
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 8,
+          "day": 4
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/657144ea-a156-4fdc-816b-a2e900942225.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 4
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-08-04T18:56:12",
+          "sha256": "cd394ad97928209809bb40368c4cd8f710229534056a25bfd3d0764add93c707",
+          "rawRegionTexts": {
+            "高雄市": "高雄市桃源區拉芙蘭里:今天已達停止上班及上課標準。 高雄市桃源區拉芙蘭里:明天停止上班、停止上課。 高雄市桃源區梅山里:今天已達停止上班及上課標準。 高雄市桃源區梅山里:明天停止上班、停止上課。 高雄市桃源區復興里:今天已達停止上班及上課標準。 高雄市桃源區復興里:明天停止上班、停止上課。"
+          },
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "manual-closure-type"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "12002",
+          "date": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 4
+          },
+          "region": "高雄市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "2024-08-04T18:56:12",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/657144ea-a156-4fdc-816b-a2e900942225.html&nfix=&name=nds.html",
+          "rawText": "高雄市桃源區拉芙蘭里:今天已達停止上班及上課標準。 高雄市桃源區拉芙蘭里:明天停止上班、停止上課。 高雄市桃源區梅山里:今天已達停止上班及上課標準。 高雄市桃源區梅山里:明天停止上班、停止上課。 高雄市桃源區復興里:今天已達停止上班及上課標準。 高雄市桃源區復興里:明天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 4,
+            "region": "高雄市",
+            "officialText": "高雄市桃源區拉芙蘭里:今天已達停止上班及上課標準。高雄市桃源區拉芙蘭里:明天停止上班、停止上課。高雄市桃源區梅山里:今天已達停止上班及上課標準。高雄市桃源區梅山里:明天停止上班、停止上課。高雄市桃源區復興里:今天已達停止上班及上課標準。高雄市桃源區復興里:明天停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12002",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/657144ea-a156-4fdc-816b-a2e900942225.html&nfix=&name=nds.html",
+            "pid": "12002",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        }
+      ],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "manual-closure-type"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": "高雄市桃源區拉芙蘭里:今天已達停止上班及上課標準。 高雄市桃源區拉芙蘭里:明天停止上班、停止上課。 高雄市桃源區梅山里:今天已達停止上班及上課標準。 高雄市桃源區梅山里:明天停止上班、停止上課。 高雄市桃源區復興里:今天已達停止上班及上課標準。 高雄市桃源區復興里:明天停止上班、停止上課。"
+      },
+      "detailSha256": "630095f3567492add0b13d30175e60128ffb2f02351cd896ccaca13ba8e833b6",
+      "events": [],
+      "reviewItems": [
+        {
+          "rocYear": 113,
+          "month": 8,
+          "day": 4,
+          "region": "高雄市",
+          "officialText": "高雄市桃源區拉芙蘭里:今天已達停止上班及上課標準。高雄市桃源區拉芙蘭里:明天停止上班、停止上課。高雄市桃源區梅山里:今天已達停止上班及上課標準。高雄市桃源區梅山里:明天停止上班、停止上課。高雄市桃源區復興里:今天已達停止上班及上課標準。高雄市桃源區復興里:明天停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12002",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/657144ea-a156-4fdc-816b-a2e900942225.html&nfix=&name=nds.html",
+          "pid": "12002",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        }
+      ],
+      "attempts": 1
     },
     {
       "pid": "12001",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=12001",
       "title": "113.08.05 113年8月3日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:14:40.994754+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 8,
+        "day": 3
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 8,
+          "day": 3
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/58aa26ee-7847-43c1-9100-f3a3385d9d8a.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 3
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-08-03T17:38:12",
+          "sha256": "8cc5f7c55652142d572c395a0a343244af91d4d1f8f789f6acfac382d306e85a",
+          "rawRegionTexts": {
+            "高雄市": "高雄市桃源區拉芙蘭里:今天已達停止上班及上課標準。 高雄市桃源區拉芙蘭里:明天已達停止上班及上課標準。 高雄市桃源區梅山里:今天已達停止上班及上課標準。 高雄市桃源區梅山里:明天已達停止上班及上課標準。 高雄市桃源區復興里:今天已達停止上班及上課標準。 高雄市桃源區復興里:明天已達停止上班及上課標準。"
+          },
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "manual-closure-type"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "12001",
+          "date": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 3
+          },
+          "region": "高雄市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "2024-08-03T17:38:12",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/58aa26ee-7847-43c1-9100-f3a3385d9d8a.html&nfix=&name=nds.html",
+          "rawText": "高雄市桃源區拉芙蘭里:今天已達停止上班及上課標準。 高雄市桃源區拉芙蘭里:明天已達停止上班及上課標準。 高雄市桃源區梅山里:今天已達停止上班及上課標準。 高雄市桃源區梅山里:明天已達停止上班及上課標準。 高雄市桃源區復興里:今天已達停止上班及上課標準。 高雄市桃源區復興里:明天已達停止上班及上課標準。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 3,
+            "region": "高雄市",
+            "officialText": "高雄市桃源區拉芙蘭里:今天已達停止上班及上課標準。高雄市桃源區拉芙蘭里:明天已達停止上班及上課標準。高雄市桃源區梅山里:今天已達停止上班及上課標準。高雄市桃源區梅山里:明天已達停止上班及上課標準。高雄市桃源區復興里:今天已達停止上班及上課標準。高雄市桃源區復興里:明天已達停止上班及上課標準。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12001",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/58aa26ee-7847-43c1-9100-f3a3385d9d8a.html&nfix=&name=nds.html",
+            "pid": "12001",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        }
+      ],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "manual-closure-type"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": "高雄市桃源區拉芙蘭里:今天已達停止上班及上課標準。 高雄市桃源區拉芙蘭里:明天已達停止上班及上課標準。 高雄市桃源區梅山里:今天已達停止上班及上課標準。 高雄市桃源區梅山里:明天已達停止上班及上課標準。 高雄市桃源區復興里:今天已達停止上班及上課標準。 高雄市桃源區復興里:明天已達停止上班及上課標準。"
+      },
+      "detailSha256": "bbf89ab41ff1e7ee242d622f4b67b591aa8043ad33301aa5a29ce45dc13ac156",
+      "events": [],
+      "reviewItems": [
+        {
+          "rocYear": 113,
+          "month": 8,
+          "day": 3,
+          "region": "高雄市",
+          "officialText": "高雄市桃源區拉芙蘭里:今天已達停止上班及上課標準。高雄市桃源區拉芙蘭里:明天已達停止上班及上課標準。高雄市桃源區梅山里:今天已達停止上班及上課標準。高雄市桃源區梅山里:明天已達停止上班及上課標準。高雄市桃源區復興里:今天已達停止上班及上課標準。高雄市桃源區復興里:明天已達停止上班及上課標準。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12001",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/58aa26ee-7847-43c1-9100-f3a3385d9d8a.html&nfix=&name=nds.html",
+          "pid": "12001",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        }
+      ],
+      "attempts": 1
     },
     {
       "pid": "12000",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=12000",
       "title": "113.08.05 113年8月2日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:14:42.105917+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 8,
+        "day": 2
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 8,
+          "day": 2
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/473643aa-9a68-4bb6-b19a-cb54e387d278.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 2
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-08-02T19:08:15",
+          "sha256": "c948ec4d0a52212c91a9e5f8a7e91fa72e756d53bbda4e94fbca3601ab972b6d",
+          "rawRegionTexts": {
+            "高雄市": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:明天已達停止上班及上課標準。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區梅山里:明天已達停止上班及上課標準。 高雄市桃源區復興里:今天停止上班、停止上課。 高雄市桃源區復興里:明天已達停止上班及上課標準。"
+          },
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "manual-closure-type"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "12000",
+          "date": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 2
+          },
+          "region": "高雄市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "2024-08-02T19:08:15",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/473643aa-9a68-4bb6-b19a-cb54e387d278.html&nfix=&name=nds.html",
+          "rawText": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:明天已達停止上班及上課標準。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區梅山里:明天已達停止上班及上課標準。 高雄市桃源區復興里:今天停止上班、停止上課。 高雄市桃源區復興里:明天已達停止上班及上課標準。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 2,
+            "region": "高雄市",
+            "officialText": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。高雄市桃源區拉芙蘭里:明天已達停止上班及上課標準。高雄市桃源區梅山里:今天停止上班、停止上課。高雄市桃源區梅山里:明天已達停止上班及上課標準。高雄市桃源區復興里:今天停止上班、停止上課。高雄市桃源區復興里:明天已達停止上班及上課標準。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12000",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/473643aa-9a68-4bb6-b19a-cb54e387d278.html&nfix=&name=nds.html",
+            "pid": "12000",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        }
+      ],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "manual-closure-type"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:明天已達停止上班及上課標準。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區梅山里:明天已達停止上班及上課標準。 高雄市桃源區復興里:今天停止上班、停止上課。 高雄市桃源區復興里:明天已達停止上班及上課標準。"
+      },
+      "detailSha256": "7ae09df18dc12449e41c70e0adc796558a30199b3053ff8b049fb3bd20012e1f",
+      "events": [],
+      "reviewItems": [
+        {
+          "rocYear": 113,
+          "month": 8,
+          "day": 2,
+          "region": "高雄市",
+          "officialText": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。高雄市桃源區拉芙蘭里:明天已達停止上班及上課標準。高雄市桃源區梅山里:今天停止上班、停止上課。高雄市桃源區梅山里:明天已達停止上班及上課標準。高雄市桃源區復興里:今天停止上班、停止上課。高雄市桃源區復興里:明天已達停止上班及上課標準。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12000",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/473643aa-9a68-4bb6-b19a-cb54e387d278.html&nfix=&name=nds.html",
+          "pid": "12000",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        }
+      ],
+      "attempts": 1
     },
     {
       "pid": "11999",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=11999",
       "title": "113.08.05 113年8月1日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:14:43.207590+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 8,
+        "day": 1
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 8,
+          "day": 1
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/f9c03e15-135c-4ad9-96e6-9f8ab3f5d45d.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 1
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-08-01T19:17:16",
+          "sha256": "c48593c4c6db75379978a73611ec693f1c12372e008902c969738aeebb99ad83",
+          "rawRegionTexts": {
+            "高雄市": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:明天停止上班、停止上課。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區梅山里:明天停止上班、停止上課。 高雄市桃源區復興里:今天停止上班、停止上課。 高雄市桃源區復興里:明天停止上班、停止上課。"
+          },
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "manual-closure-type"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "11999",
+          "date": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 1
+          },
+          "region": "高雄市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "2024-08-01T19:17:16",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/f9c03e15-135c-4ad9-96e6-9f8ab3f5d45d.html&nfix=&name=nds.html",
+          "rawText": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:明天停止上班、停止上課。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區梅山里:明天停止上班、停止上課。 高雄市桃源區復興里:今天停止上班、停止上課。 高雄市桃源區復興里:明天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 113,
+            "month": 8,
+            "day": 1,
+            "region": "高雄市",
+            "officialText": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。高雄市桃源區拉芙蘭里:明天停止上班、停止上課。高雄市桃源區梅山里:今天停止上班、停止上課。高雄市桃源區梅山里:明天停止上班、停止上課。高雄市桃源區復興里:今天停止上班、停止上課。高雄市桃源區復興里:明天停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=11999",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/f9c03e15-135c-4ad9-96e6-9f8ab3f5d45d.html&nfix=&name=nds.html",
+            "pid": "11999",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        }
+      ],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "manual-closure-type"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:明天停止上班、停止上課。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區梅山里:明天停止上班、停止上課。 高雄市桃源區復興里:今天停止上班、停止上課。 高雄市桃源區復興里:明天停止上班、停止上課。"
+      },
+      "detailSha256": "e24df9ce6433478cfca26c8552e50b9913b68236c110edbc459027c008e68bcb",
+      "events": [],
+      "reviewItems": [
+        {
+          "rocYear": 113,
+          "month": 8,
+          "day": 1,
+          "region": "高雄市",
+          "officialText": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。高雄市桃源區拉芙蘭里:明天停止上班、停止上課。高雄市桃源區梅山里:今天停止上班、停止上課。高雄市桃源區梅山里:明天停止上班、停止上課。高雄市桃源區復興里:今天停止上班、停止上課。高雄市桃源區復興里:明天停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=11999",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/f9c03e15-135c-4ad9-96e6-9f8ab3f5d45d.html&nfix=&name=nds.html",
+          "pid": "11999",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        }
+      ],
+      "attempts": 1
     },
     {
       "pid": "11997",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=11997",
       "title": "113.08.01 113年7月31日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:14:44.310817+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 7,
+        "day": 31
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 7,
+          "day": 31
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/640d3603-7de3-48f2-ae47-5ff2b7f57c9c.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 7,
+            "day": 31
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-07-31T20:29:17",
+          "sha256": "deaf3bb1601a23154e7e8019be1e8e560577a0e6a0d25067a0ed69c3157f3054",
+          "rawRegionTexts": {
+            "高雄市": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:明天停止上班、停止上課。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區梅山里:明天停止上班、停止上課。 高雄市桃源區復興里:今天停止上班、停止上課。 高雄市桃源區復興里:明天停止上班、停止上課。"
+          },
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "manual-closure-type"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "11997",
+          "date": {
+            "rocYear": 113,
+            "month": 7,
+            "day": 31
+          },
+          "region": "高雄市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "2024-07-31T20:29:17",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/640d3603-7de3-48f2-ae47-5ff2b7f57c9c.html&nfix=&name=nds.html",
+          "rawText": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:明天停止上班、停止上課。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區梅山里:明天停止上班、停止上課。 高雄市桃源區復興里:今天停止上班、停止上課。 高雄市桃源區復興里:明天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 113,
+            "month": 7,
+            "day": 31,
+            "region": "高雄市",
+            "officialText": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。高雄市桃源區拉芙蘭里:明天停止上班、停止上課。高雄市桃源區梅山里:今天停止上班、停止上課。高雄市桃源區梅山里:明天停止上班、停止上課。高雄市桃源區復興里:今天停止上班、停止上課。高雄市桃源區復興里:明天停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=11997",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/640d3603-7de3-48f2-ae47-5ff2b7f57c9c.html&nfix=&name=nds.html",
+            "pid": "11997",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        }
+      ],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "manual-closure-type"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:明天停止上班、停止上課。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區梅山里:明天停止上班、停止上課。 高雄市桃源區復興里:今天停止上班、停止上課。 高雄市桃源區復興里:明天停止上班、停止上課。"
+      },
+      "detailSha256": "0cbc84ba16ca876958931e965ddfc0c1cc395ede4e12805d06087f3960a4f6b7",
+      "events": [],
+      "reviewItems": [
+        {
+          "rocYear": 113,
+          "month": 7,
+          "day": 31,
+          "region": "高雄市",
+          "officialText": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。高雄市桃源區拉芙蘭里:明天停止上班、停止上課。高雄市桃源區梅山里:今天停止上班、停止上課。高雄市桃源區梅山里:明天停止上班、停止上課。高雄市桃源區復興里:今天停止上班、停止上課。高雄市桃源區復興里:明天停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=11997",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202408/640d3603-7de3-48f2-ae47-5ff2b7f57c9c.html&nfix=&name=nds.html",
+          "pid": "11997",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        }
+      ],
+      "attempts": 1
     },
     {
       "pid": "11996",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=11996",
       "title": "113.07.31 113年7月30日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:14:45.908504+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 7,
+        "day": 30
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 7,
+          "day": 30
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/cfbf45b5-c6b3-4b0f-b86d-41855b2d049c.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 7,
+            "day": 30
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-07-30T20:56:12",
+          "sha256": "d9a8134a1a200fefd48458b1afe56b547b4aa9822cf43e78ca230837e5c687e9",
+          "rawRegionTexts": {
+            "高雄市": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:明天停止上班、停止上課。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區梅山里:明天停止上班、停止上課。 高雄市桃源區復興里:今天停止上班、停止上課。 高雄市桃源區復興里:明天停止上班、停止上課。"
+          },
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "manual-closure-type"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "11996",
+          "date": {
+            "rocYear": 113,
+            "month": 7,
+            "day": 30
+          },
+          "region": "高雄市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "2024-07-30T20:56:12",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/cfbf45b5-c6b3-4b0f-b86d-41855b2d049c.html&nfix=&name=nds.html",
+          "rawText": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:明天停止上班、停止上課。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區梅山里:明天停止上班、停止上課。 高雄市桃源區復興里:今天停止上班、停止上課。 高雄市桃源區復興里:明天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 113,
+            "month": 7,
+            "day": 30,
+            "region": "高雄市",
+            "officialText": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。高雄市桃源區拉芙蘭里:明天停止上班、停止上課。高雄市桃源區梅山里:今天停止上班、停止上課。高雄市桃源區梅山里:明天停止上班、停止上課。高雄市桃源區復興里:今天停止上班、停止上課。高雄市桃源區復興里:明天停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=11996",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/cfbf45b5-c6b3-4b0f-b86d-41855b2d049c.html&nfix=&name=nds.html",
+            "pid": "11996",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        }
+      ],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "manual-closure-type"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:明天停止上班、停止上課。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區梅山里:明天停止上班、停止上課。 高雄市桃源區復興里:今天停止上班、停止上課。 高雄市桃源區復興里:明天停止上班、停止上課。"
+      },
+      "detailSha256": "e2554d79a1e5253745eb29b4dcf428d0fb3fc27e0d9c597ba4d141bb1a24ce1d",
+      "events": [],
+      "reviewItems": [
+        {
+          "rocYear": 113,
+          "month": 7,
+          "day": 30,
+          "region": "高雄市",
+          "officialText": "高雄市桃源區拉芙蘭里:今天停止上班、停止上課。高雄市桃源區拉芙蘭里:明天停止上班、停止上課。高雄市桃源區梅山里:今天停止上班、停止上課。高雄市桃源區梅山里:明天停止上班、停止上課。高雄市桃源區復興里:今天停止上班、停止上課。高雄市桃源區復興里:明天停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=11996",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/cfbf45b5-c6b3-4b0f-b86d-41855b2d049c.html&nfix=&name=nds.html",
+          "pid": "11996",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        }
+      ],
+      "attempts": 1
     },
     {
       "pid": "11993",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=11993",
       "title": "113.07.30 113年7月29日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:14:47.051356+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 7,
+        "day": 29
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 7,
+          "day": 29
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/2205b4af-db08-43bf-a8b2-b6482dae1b66.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 7,
+            "day": 29
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-07-29T19:05:12",
+          "sha256": "96507afcd29d2ec2e65b2683339cf7eb72d26f9cceae176fa2d6f55f2185d7b3",
+          "rawRegionTexts": {
+            "高雄市": "那瑪夏區:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:明天停止上班、停止上課。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區梅山里:明天停止上班、停止上課。 高雄市桃源區復興里:今天停止上班、停止上課。 高雄市桃源區復興里:明天停止上班、停止上課。"
+          },
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "manual-closure-type"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "11993",
+          "date": {
+            "rocYear": 113,
+            "month": 7,
+            "day": 29
+          },
+          "region": "高雄市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "2024-07-29T19:05:12",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/2205b4af-db08-43bf-a8b2-b6482dae1b66.html&nfix=&name=nds.html",
+          "rawText": "那瑪夏區:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:明天停止上班、停止上課。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區梅山里:明天停止上班、停止上課。 高雄市桃源區復興里:今天停止上班、停止上課。 高雄市桃源區復興里:明天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 113,
+            "month": 7,
+            "day": 29,
+            "region": "高雄市",
+            "officialText": "那瑪夏區:今天停止上班、停止上課。高雄市桃源區拉芙蘭里:今天停止上班、停止上課。高雄市桃源區拉芙蘭里:明天停止上班、停止上課。高雄市桃源區梅山里:今天停止上班、停止上課。高雄市桃源區梅山里:明天停止上班、停止上課。高雄市桃源區復興里:今天停止上班、停止上課。高雄市桃源區復興里:明天停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=11993",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/2205b4af-db08-43bf-a8b2-b6482dae1b66.html&nfix=&name=nds.html",
+            "pid": "11993",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        }
+      ],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "manual-closure-type"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": "那瑪夏區:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:今天停止上班、停止上課。 高雄市桃源區拉芙蘭里:明天停止上班、停止上課。 高雄市桃源區梅山里:今天停止上班、停止上課。 高雄市桃源區梅山里:明天停止上班、停止上課。 高雄市桃源區復興里:今天停止上班、停止上課。 高雄市桃源區復興里:明天停止上班、停止上課。"
+      },
+      "detailSha256": "e948c09babb79e4f7747d3d6b735435d83fe71a8b493a67efcfa80e275c88d4e",
+      "events": [],
+      "reviewItems": [
+        {
+          "rocYear": 113,
+          "month": 7,
+          "day": 29,
+          "region": "高雄市",
+          "officialText": "那瑪夏區:今天停止上班、停止上課。高雄市桃源區拉芙蘭里:今天停止上班、停止上課。高雄市桃源區拉芙蘭里:明天停止上班、停止上課。高雄市桃源區梅山里:今天停止上班、停止上課。高雄市桃源區梅山里:明天停止上班、停止上課。高雄市桃源區復興里:今天停止上班、停止上課。高雄市桃源區復興里:明天停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=11993",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/2205b4af-db08-43bf-a8b2-b6482dae1b66.html&nfix=&name=nds.html",
+          "pid": "11993",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        }
+      ],
+      "attempts": 1
     },
     {
       "pid": "11992",
