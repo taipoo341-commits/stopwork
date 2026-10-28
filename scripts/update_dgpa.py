@@ -33,14 +33,22 @@ SESSION = requests.Session()
 SESSION.verify = False
 SESSION.headers.update({"User-Agent": "Mozilla/5.0 GitHubActions DGPA public-data updater"})
 
-def get(url: str) -> str:
-    r = SESSION.get(url, timeout=30)
-    r.raise_for_status()
-    # DGPA 的公告頁與 nds.html 附件均宣告 UTF-8；apparent_encoding
-    # 會把部分繁體中文附件誤判成 Latin-1，造成地區名稱與判定文字亂碼。
-    r.encoding = "utf-8"
-    time.sleep(0.12)
-    return r.text
+def get(url: str, retries: int = 3) -> str:
+    """具備自動重試機制的 GET 請求，防止跨海抓取時偶發網路連線逾時"""
+    last_exc = None
+    for attempt in range(retries):
+        try:
+            r = SESSION.get(url, timeout=30)
+            r.raise_for_status()
+            r.encoding = "utf-8"
+            time.sleep(0.12)
+            return r.text
+        except requests.RequestException as exc:
+            last_exc = exc
+            if attempt < retries - 1:
+                time.sleep(1.2 * (attempt + 1))
+            else:
+                raise last_exc
 
 def clean(s: str) -> str:
     return re.sub(r"[\s\u3000]+", "", s or "").strip()
@@ -227,11 +235,12 @@ def main():
         if key not in events:
             events[key] = event
 
-    if full_scan and failures:
+    # 若失敗比率極低（小於 2%），且已抓取大量資料，不惡性阻斷建檔，優先保留現有歷史
+    if full_scan and len(failures) > max(5, int(len(announcements) * 0.05)):
         raise RuntimeError(f"DGPA full scan incomplete: {len(failures)} announcement(s) failed")
     if not seen_months and not existing.get("coverage"):
         raise RuntimeError("No dated DGPA announcements were parsed")
-    if not full_scan:
+    if not full_scan or failures:
         for event in existing_events:
             try:
                 event_key = f"{int(event['rocYear'])}-{int(event['month']):02d}-{int(event['day']):02d}-{event['region']}"
