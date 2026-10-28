@@ -5,13 +5,13 @@
   "phase": "review",
   "parserVersion": "4-eca37b4bf5578172",
   "startedAt": "2026-10-28T18:22:26.495557+08:00",
-  "updatedAt": "2026-10-29T03:43:12.504986+08:00",
+  "updatedAt": "2026-10-29T03:43:25.558725+08:00",
   "completedAt": null,
   "counts": {
     "total": 503,
-    "completed": 147,
+    "completed": 157,
     "failed": 0,
-    "pending": 356,
+    "pending": 346,
     "manualItems": 49
   },
   "scan": {
@@ -12235,61 +12235,521 @@
       "pid": "11893",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=11893",
       "title": "113.04.15 113年4月13日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-29T03:43:15.606683+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 4,
+        "day": 13
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 4,
+          "day": 13
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202404/cd345d77-1ad4-49e7-be80-1663a084092f.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 4,
+            "day": 13
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-04-13T22:37:15",
+          "sha256": "14ee9844a7e90151cf00b40b3bdaf0d0554ea1ab157611ab774d5d88b619892c",
+          "rawRegionTexts": {},
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "not-listed"
+          }
+        }
+      ],
+      "observations": [],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "not-listed"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": ""
+      },
+      "detailSha256": "5b5f062ebe8534572fe5635214cb68583ecdd9d9c7d6722a2a91fdc68ff47208",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "11892",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=11892",
       "title": "113.04.15 113年4月12日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-29T03:43:16.722201+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 4,
+        "day": 12
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 4,
+          "day": 12
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202404/05beb51e-7014-4b80-b4a8-126a3fe17505.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 4,
+            "day": 12
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-04-12T18:22:14",
+          "sha256": "4cb0c154d36b24e0f6e53faa466407dc7dc48b0c6bf20abac15be7abcf63d722",
+          "rawRegionTexts": {},
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "not-listed"
+          }
+        }
+      ],
+      "observations": [],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "not-listed"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": ""
+      },
+      "detailSha256": "c8bd24b4e60f92caef09a33bdf6cbd61a7d1bc68c8f555f3723ee239e7f1cf32",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "11891",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=11891",
       "title": "113.04.15 113年4月11日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-29T03:43:17.827682+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 4,
+        "day": 11
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 4,
+          "day": 11
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202404/8e9a9125-9537-4afb-9744-d33c4870d9c4.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 4,
+            "day": 11
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-04-11T18:07:13",
+          "sha256": "89e3922f04c88dc79ea68a80d6aa0bde4d051957645174979f3b98e3037948d2",
+          "rawRegionTexts": {},
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "not-listed"
+          }
+        }
+      ],
+      "observations": [],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "not-listed"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": ""
+      },
+      "detailSha256": "09df0d634cd8cfd8ce53b6449945d20d8ae3178268b06d0515f72e289ad917e0",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "11890",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=11890",
       "title": "113.04.15 113年4月10日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-29T03:43:18.926727+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 4,
+        "day": 10
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 4,
+          "day": 10
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202404/5708fd3c-fb32-466d-81d0-b4c0f6c32197.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 4,
+            "day": 10
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-04-10T17:40:13",
+          "sha256": "eb72d52eeba4df79bf4e0de5367f93e95a1146994fe99d7e525661c8b268228b",
+          "rawRegionTexts": {},
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "not-listed"
+          }
+        }
+      ],
+      "observations": [],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "not-listed"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": ""
+      },
+      "detailSha256": "5e420d906b7116e056a8e2e3a5874ef6182962f07f1712209c20cd4f73101063",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "11889",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=11889",
       "title": "113.04.15 113年4月9日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-29T03:43:20.026458+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 4,
+        "day": 9
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 4,
+          "day": 9
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202404/426e68c2-bd49-49d2-b079-a64fdb607bf3.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 4,
+            "day": 9
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-04-09T19:10:15",
+          "sha256": "ffd281fdaf200d156869453f1452bdac8684837c48cf4d378d707f604eda2f76",
+          "rawRegionTexts": {},
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "not-listed"
+          }
+        }
+      ],
+      "observations": [],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "not-listed"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": ""
+      },
+      "detailSha256": "22669d19deeb7b0c5d59838742c289c60732dc6b8ad12276ad55895764cdd9a1",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "11882",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=11882",
       "title": "113.04.09 113年4月8日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-29T03:43:21.122637+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 4,
+        "day": 8
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 4,
+          "day": 8
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202404/96f87a00-1a65-4471-90b7-d397030354bd.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 4,
+            "day": 8
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-04-08T19:10:32",
+          "sha256": "39254d9102418eb7f43f195901e85e4d1d4c680b9300ec5aa6907b360ccf0e66",
+          "rawRegionTexts": {},
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "not-listed"
+          }
+        }
+      ],
+      "observations": [],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "not-listed"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": ""
+      },
+      "detailSha256": "05a69b4b93488cf7519265905174e2a89aae27effee2658d7ea14861573c7f30",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "11880",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=11880",
       "title": "113.04.08 113年4月7日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-29T03:43:22.225054+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 4,
+        "day": 7
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 4,
+          "day": 7
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202404/a292d1d8-edec-4342-9756-8c0965b70790.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 4,
+            "day": 7
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-04-07T00:07:12",
+          "sha256": "68b839a43923270ced699ea19321facee9e8c9c063a4946693fdb345ca945bd3",
+          "rawRegionTexts": {},
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "not-listed"
+          }
+        }
+      ],
+      "observations": [],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "not-listed"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": ""
+      },
+      "detailSha256": "0ad16bf24604c22a7790ee4eae3fba00acad3048055778c8dd60a9bfe5da7a03",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "11879",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=11879",
       "title": "113.04.08 113年4月6日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-29T03:43:23.324660+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 4,
+        "day": 6
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 4,
+          "day": 6
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202404/91fa13fa-5618-4925-be8d-d6b490d511ec.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 4,
+            "day": 6
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-04-06T22:46:17",
+          "sha256": "b0b1f11da3bb6b4896e685829c0f531f22b639d93c089b60a8a3b44841afeb8d",
+          "rawRegionTexts": {},
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "not-listed"
+          }
+        }
+      ],
+      "observations": [],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "not-listed"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": ""
+      },
+      "detailSha256": "7a4ab643498edd75d447c594ac83c27039d3e4e8eed52ff4f513f16e6c11b35a",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "11878",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=11878",
       "title": "113.04.08 113年4月5日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-29T03:43:24.425685+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 4,
+        "day": 5
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 4,
+          "day": 5
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202404/c40fbefb-5ede-4782-837b-8ceed1f8406b.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 4,
+            "day": 5
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-04-05T00:07:13",
+          "sha256": "fb7891e0ec0d32a20d1fc30fe1692fe4833cecb90ab7c54ede7743af1f9d82e6",
+          "rawRegionTexts": {},
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "not-listed"
+          }
+        }
+      ],
+      "observations": [],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "not-listed"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": ""
+      },
+      "detailSha256": "6a6c69d83936a36aa96cd5ab06ab963c86169098caaafbb5faf2385f4d9c3788",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "11877",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=11877",
       "title": "113.04.08 113年4月4日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-29T03:43:25.530746+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 113,
+        "month": 4,
+        "day": 4
+      },
+      "dates": [
+        {
+          "rocYear": 113,
+          "month": 4,
+          "day": 4
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202404/bc155143-64ee-4a05-8f9c-09b174e110f9.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 113,
+            "month": 4,
+            "day": 4
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2024-04-04T22:31:13",
+          "sha256": "e8e0b98fea0b7a387fd3a485ff9188d6286500d25a2a11545896c5b5897c8421",
+          "rawRegionTexts": {},
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "not-listed"
+          }
+        }
+      ],
+      "observations": [],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "not-listed"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": ""
+      },
+      "detailSha256": "717357d14ac25289dfb7c1c05d25a9c5fb0e454ffecb94e1a3be5ee874b70c10",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "11876",
