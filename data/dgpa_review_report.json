@@ -1,10 +1,28 @@
 {
   "schemaVersion": 1,
-  "status": "idle",
-  "phase": "incremental",
-  "reviewId": null,
-  "updatedAt": "2026-10-28T18:17:46.531749+08:00",
-  "counts": {},
+  "reviewId": "20261028T102226-f055e35b",
+  "status": "in-progress",
+  "phase": "discover",
+  "parserVersion": "4-eca37b4bf5578172",
+  "startedAt": "2026-10-28T18:22:26.495557+08:00",
+  "updatedAt": "2026-10-28T18:24:31.397645+08:00",
+  "completedAt": null,
+  "counts": {
+    "total": 0,
+    "completed": 0,
+    "failed": 0,
+    "pending": 0,
+    "manualItems": 0
+  },
+  "scan": {
+    "nextPage": 1,
+    "expectedCount": null,
+    "expectedPages": null,
+    "complete": false,
+    "lastError": ""
+  },
   "incrementalErrors": [],
+  "verificationPasses": 0,
+  "changes": null,
   "announcements": []
 }
