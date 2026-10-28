@@ -5,14 +5,14 @@
   "phase": "review",
   "parserVersion": "4-eca37b4bf5578172",
   "startedAt": "2026-10-28T18:22:26.495557+08:00",
-  "updatedAt": "2026-10-28T22:13:41.796636+08:00",
+  "updatedAt": "2026-10-28T22:13:55.091393+08:00",
   "completedAt": null,
   "counts": {
     "total": 503,
-    "completed": 77,
+    "completed": 87,
     "failed": 0,
-    "pending": 426,
-    "manualItems": 23
+    "pending": 416,
+    "manualItems": 31
   },
   "scan": {
     "nextPage": 1,
@@ -6193,61 +6193,1020 @@
       "pid": "12620",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=12620",
       "title": "114.07.30 114年7月29日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:13:44.833907+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 114,
+        "month": 7,
+        "day": 29
+      },
+      "dates": [
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 29
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/895fff95-17cf-4387-a7a1-709b178c4035.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 29
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2025-07-29T22:07:17",
+          "sha256": "c1708ad59d38f5014e4e861a064b71eae2080947b1eb686da46c9fc4e37d064b",
+          "rawRegionTexts": {
+            "臺南市": "今天停止上班、停止上課。 明天照常上班、照常上課。 臺南市南化區瑞峰國民小學:明天停止上班、停止上課。",
+            "高雄市": "今天停止上班、停止上課。 六龜區:明天停止上班、停止上課。 甲仙區:明天停止上班、停止上課。 那瑪夏區:明天停止上班、停止上課。 茂林區:明天停止上班、停止上課。 桃源區:明天停止上班、停止上課。"
+          },
+          "dispositions": {
+            "臺南市": "full-day",
+            "高雄市": "full-day"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "12620",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 29
+          },
+          "region": "臺南市",
+          "disposition": "full-day",
+          "officialUpdatedAt": "2025-07-29T22:07:17",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/895fff95-17cf-4387-a7a1-709b178c4035.html&nfix=&name=nds.html",
+          "rawText": "今天停止上班、停止上課。 明天照常上班、照常上課。 臺南市南化區瑞峰國民小學:明天停止上班、停止上課。",
+          "event": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 29,
+            "region": "臺南市",
+            "officialText": "今天停止上班、停止上課。明天照常上班、照常上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12620",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/895fff95-17cf-4387-a7a1-709b178c4035.html&nfix=&name=nds.html",
+            "pid": "12620",
+            "sourceKind": "archive"
+          },
+          "reviewItem": null
+        },
+        {
+          "pid": "12620",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 29
+          },
+          "region": "高雄市",
+          "disposition": "full-day",
+          "officialUpdatedAt": "2025-07-29T22:07:17",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/895fff95-17cf-4387-a7a1-709b178c4035.html&nfix=&name=nds.html",
+          "rawText": "今天停止上班、停止上課。 六龜區:明天停止上班、停止上課。 甲仙區:明天停止上班、停止上課。 那瑪夏區:明天停止上班、停止上課。 茂林區:明天停止上班、停止上課。 桃源區:明天停止上班、停止上課。",
+          "event": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 29,
+            "region": "高雄市",
+            "officialText": "今天停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12620",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/895fff95-17cf-4387-a7a1-709b178c4035.html&nfix=&name=nds.html",
+            "pid": "12620",
+            "sourceKind": "archive"
+          },
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "臺南市": "full-day",
+        "高雄市": "full-day"
+      },
+      "rawRegionTexts": {
+        "臺南市": "今天停止上班、停止上課。 明天照常上班、照常上課。 臺南市南化區瑞峰國民小學:明天停止上班、停止上課。",
+        "高雄市": "今天停止上班、停止上課。 六龜區:明天停止上班、停止上課。 甲仙區:明天停止上班、停止上課。 那瑪夏區:明天停止上班、停止上課。 茂林區:明天停止上班、停止上課。 桃源區:明天停止上班、停止上課。"
+      },
+      "detailSha256": "34465c27632899f05e14d380de21bb1ca1e9918079cb814b5bba26aea1443853",
+      "events": [
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 29,
+          "region": "臺南市",
+          "officialText": "今天停止上班、停止上課。明天照常上班、照常上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12620",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/895fff95-17cf-4387-a7a1-709b178c4035.html&nfix=&name=nds.html",
+          "pid": "12620",
+          "sourceKind": "archive"
+        },
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 29,
+          "region": "高雄市",
+          "officialText": "今天停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12620",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/895fff95-17cf-4387-a7a1-709b178c4035.html&nfix=&name=nds.html",
+          "pid": "12620",
+          "sourceKind": "archive"
+        }
+      ],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "12619",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=12619",
       "title": "114.07.29 114年7月28日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:13:45.951525+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 114,
+        "month": 7,
+        "day": 28
+      },
+      "dates": [
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 28
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/52a04350-f63b-4a97-a0ae-1ac2d8fe1696.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 28
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2025-07-28T19:34:15",
+          "sha256": "17f6b44ae3310183184413a7360a1d5abdbbfb9392435f9a3dc0446097415c16",
+          "rawRegionTexts": {
+            "臺南市": "明天停止上班、停止上課。 臺南市白河區大竹國民小學:今天停止上班、停止上課。 臺南市立鹽水國民中學:今天下午照常上班、停止上課。 臺南市鹽水區文昌國民小學:今天下午照常上班、停止上課。 後壁區:今天停止上班、停止上課。",
+            "高雄市": "明天停止上班、停止上課。"
+          },
+          "dispositions": {
+            "臺南市": "tomorrow-only",
+            "高雄市": "tomorrow-only"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "12619",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 28
+          },
+          "region": "臺南市",
+          "disposition": "tomorrow-only",
+          "officialUpdatedAt": "2025-07-28T19:34:15",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/52a04350-f63b-4a97-a0ae-1ac2d8fe1696.html&nfix=&name=nds.html",
+          "rawText": "明天停止上班、停止上課。 臺南市白河區大竹國民小學:今天停止上班、停止上課。 臺南市立鹽水國民中學:今天下午照常上班、停止上課。 臺南市鹽水區文昌國民小學:今天下午照常上班、停止上課。 後壁區:今天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": null
+        },
+        {
+          "pid": "12619",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 28
+          },
+          "region": "高雄市",
+          "disposition": "tomorrow-only",
+          "officialUpdatedAt": "2025-07-28T19:34:15",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/52a04350-f63b-4a97-a0ae-1ac2d8fe1696.html&nfix=&name=nds.html",
+          "rawText": "明天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "臺南市": "tomorrow-only",
+        "高雄市": "tomorrow-only"
+      },
+      "rawRegionTexts": {
+        "臺南市": "明天停止上班、停止上課。 臺南市白河區大竹國民小學:今天停止上班、停止上課。 臺南市立鹽水國民中學:今天下午照常上班、停止上課。 臺南市鹽水區文昌國民小學:今天下午照常上班、停止上課。 後壁區:今天停止上班、停止上課。",
+        "高雄市": "明天停止上班、停止上課。"
+      },
+      "detailSha256": "337d4448548b4cb01f2074842e3f17a9aa3d61dcf14635b3867ebbb021640177",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "12612",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=12612",
       "title": "114.07.22 114年7月21日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:13:47.073441+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 114,
+        "month": 7,
+        "day": 21
+      },
+      "dates": [
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 21
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/8103c831-4653-4270-8ef2-86034c5fbab7.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 21
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2025-07-21T10:43:15",
+          "sha256": "29a92c71ceb9249f882e47a38cefadf5bfc58c96d01f689ea1ad343fa5eb3d72",
+          "rawRegionTexts": {},
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "not-listed"
+          }
+        }
+      ],
+      "observations": [],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "not-listed"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": ""
+      },
+      "detailSha256": "fe51d469d355f37745a024ee34d3ea20ec6c1c5276deb8ac93b0ef721de0197e",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "12611",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=12611",
       "title": "114.07.22 114年7月15日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:13:48.214763+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 114,
+        "month": 7,
+        "day": 15
+      },
+      "dates": [
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 15
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/f3efbd36-f69b-4466-834f-35200538637c.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 15
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2025-07-15T00:07:05",
+          "sha256": "b6364208fd6e768acf94656b77c1db1945f49bee7f4f1e1f9f6fb6e788613c2c",
+          "rawRegionTexts": {
+            "臺南市": "尚未宣布消息",
+            "高雄市": "尚未宣布消息"
+          },
+          "dispositions": {
+            "臺南市": "no-full-day-closure",
+            "高雄市": "no-full-day-closure"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "12611",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 15
+          },
+          "region": "臺南市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "2025-07-15T00:07:05",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/f3efbd36-f69b-4466-834f-35200538637c.html&nfix=&name=nds.html",
+          "rawText": "尚未宣布消息",
+          "event": null,
+          "reviewItem": null
+        },
+        {
+          "pid": "12611",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 15
+          },
+          "region": "高雄市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "2025-07-15T00:07:05",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/f3efbd36-f69b-4466-834f-35200538637c.html&nfix=&name=nds.html",
+          "rawText": "尚未宣布消息",
+          "event": null,
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "臺南市": "no-full-day-closure",
+        "高雄市": "no-full-day-closure"
+      },
+      "rawRegionTexts": {
+        "臺南市": "尚未宣布消息",
+        "高雄市": "尚未宣布消息"
+      },
+      "detailSha256": "0e3b6741ef900c8a4a75e95616794601567f5b6ec34084d0b0e813d6034839de",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "12609",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=12609",
       "title": "114.07.15 114年7月14日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:13:49.351228+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 114,
+        "month": 7,
+        "day": 14
+      },
+      "dates": [
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 14
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/48352efa-6360-4fe6-9835-e42ef8adf302.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 14
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2025-07-14T18:04:14",
+          "sha256": "c81f09baefd9dcb54ca003b83cbfa5dc8e8c33ad1f7849797156166e9166942b",
+          "rawRegionTexts": {},
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "not-listed"
+          }
+        }
+      ],
+      "observations": [],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "not-listed"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": ""
+      },
+      "detailSha256": "4aa02e947393a1421a84345b4922b2ca2d69860efc85bab87c1b9ec429bfcf68",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "12607",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=12607",
       "title": "114.07.14 114年7月13日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:13:50.459487+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 114,
+        "month": 7,
+        "day": 13
+      },
+      "dates": [
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 13
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/3da1a2f4-fc6f-4ec7-b9d7-4342c064a480.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 13
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2025-07-13T17:01:14",
+          "sha256": "fb224cd1b695e6d052db9456818802a7256882ea4495ea89873642669035f715",
+          "rawRegionTexts": {},
+          "dispositions": {
+            "臺南市": "not-listed",
+            "高雄市": "not-listed"
+          }
+        }
+      ],
+      "observations": [],
+      "dispositions": {
+        "臺南市": "not-listed",
+        "高雄市": "not-listed"
+      },
+      "rawRegionTexts": {
+        "臺南市": "",
+        "高雄市": ""
+      },
+      "detailSha256": "8d4c42bbfcf1af00eb12b08b6e0453841071d99517233f88eb7547f9b090c744",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "12606",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=12606",
       "title": "114.07.14 114年7月11日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:13:51.584255+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 114,
+        "month": 7,
+        "day": 11
+      },
+      "dates": [
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 11
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/402edf8e-fd30-4e58-a945-0c9a45d92221.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 11
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2025-07-11T16:07:21",
+          "sha256": "a0ef242e8ec77064663c2db766bbe343585709b5eda91545fb3237d963998700",
+          "rawRegionTexts": {
+            "臺南市": "新營區:今天停止上班、停止上課。 鹽水區:今天停止上班、停止上課。 白河區:今天停止上班、停止上課。 柳營區:今天停止上班、停止上課。 後壁區:今天停止上班、停止上課。 東山區:今天停止上班、停止上課。 佳里區:今天停止上班、停止上課。 學甲區:今天停止上班、停止上課。 西港區:今天停止上班、停止上課。 七股區:今天停止上班、停止上課。 將軍區:今天停止上班、停止上課。 北門區:今天停止上班、停止上課。",
+            "高雄市": "六龜區:今天停止上班、停止上課。 甲仙區:今天停止上班、停止上課。 杉林區:今天停止上班、停止上課。 那瑪夏區:今天停止上班、停止上課。 茂林區:今天停止上班、停止上課。 桃源區:今天停止上班、停止上課。"
+          },
+          "dispositions": {
+            "臺南市": "manual-closure-type",
+            "高雄市": "manual-closure-type"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "12606",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 11
+          },
+          "region": "臺南市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "2025-07-11T16:07:21",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/402edf8e-fd30-4e58-a945-0c9a45d92221.html&nfix=&name=nds.html",
+          "rawText": "新營區:今天停止上班、停止上課。 鹽水區:今天停止上班、停止上課。 白河區:今天停止上班、停止上課。 柳營區:今天停止上班、停止上課。 後壁區:今天停止上班、停止上課。 東山區:今天停止上班、停止上課。 佳里區:今天停止上班、停止上課。 學甲區:今天停止上班、停止上課。 西港區:今天停止上班、停止上課。 七股區:今天停止上班、停止上課。 將軍區:今天停止上班、停止上課。 北門區:今天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 11,
+            "region": "臺南市",
+            "officialText": "新營區:今天停止上班、停止上課。鹽水區:今天停止上班、停止上課。白河區:今天停止上班、停止上課。柳營區:今天停止上班、停止上課。後壁區:今天停止上班、停止上課。東山區:今天停止上班、停止上課。佳里區:今天停止上班、停止上課。學甲區:今天停止上班、停止上課。西港區:今天停止上班、停止上課。七股區:今天停止上班、停止上課。將軍區:今天停止上班、停止上課。北門區:今天停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12606",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/402edf8e-fd30-4e58-a945-0c9a45d92221.html&nfix=&name=nds.html",
+            "pid": "12606",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        },
+        {
+          "pid": "12606",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 11
+          },
+          "region": "高雄市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "2025-07-11T16:07:21",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/402edf8e-fd30-4e58-a945-0c9a45d92221.html&nfix=&name=nds.html",
+          "rawText": "六龜區:今天停止上班、停止上課。 甲仙區:今天停止上班、停止上課。 杉林區:今天停止上班、停止上課。 那瑪夏區:今天停止上班、停止上課。 茂林區:今天停止上班、停止上課。 桃源區:今天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 11,
+            "region": "高雄市",
+            "officialText": "六龜區:今天停止上班、停止上課。甲仙區:今天停止上班、停止上課。杉林區:今天停止上班、停止上課。那瑪夏區:今天停止上班、停止上課。茂林區:今天停止上班、停止上課。桃源區:今天停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12606",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/402edf8e-fd30-4e58-a945-0c9a45d92221.html&nfix=&name=nds.html",
+            "pid": "12606",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        }
+      ],
+      "dispositions": {
+        "臺南市": "manual-closure-type",
+        "高雄市": "manual-closure-type"
+      },
+      "rawRegionTexts": {
+        "臺南市": "新營區:今天停止上班、停止上課。 鹽水區:今天停止上班、停止上課。 白河區:今天停止上班、停止上課。 柳營區:今天停止上班、停止上課。 後壁區:今天停止上班、停止上課。 東山區:今天停止上班、停止上課。 佳里區:今天停止上班、停止上課。 學甲區:今天停止上班、停止上課。 西港區:今天停止上班、停止上課。 七股區:今天停止上班、停止上課。 將軍區:今天停止上班、停止上課。 北門區:今天停止上班、停止上課。",
+        "高雄市": "六龜區:今天停止上班、停止上課。 甲仙區:今天停止上班、停止上課。 杉林區:今天停止上班、停止上課。 那瑪夏區:今天停止上班、停止上課。 茂林區:今天停止上班、停止上課。 桃源區:今天停止上班、停止上課。"
+      },
+      "detailSha256": "ed3c68fedc87b7f25b26eb318806bcec5f05408c2c4215d83e5a270787c3ef0d",
+      "events": [],
+      "reviewItems": [
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 11,
+          "region": "臺南市",
+          "officialText": "新營區:今天停止上班、停止上課。鹽水區:今天停止上班、停止上課。白河區:今天停止上班、停止上課。柳營區:今天停止上班、停止上課。後壁區:今天停止上班、停止上課。東山區:今天停止上班、停止上課。佳里區:今天停止上班、停止上課。學甲區:今天停止上班、停止上課。西港區:今天停止上班、停止上課。七股區:今天停止上班、停止上課。將軍區:今天停止上班、停止上課。北門區:今天停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12606",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/402edf8e-fd30-4e58-a945-0c9a45d92221.html&nfix=&name=nds.html",
+          "pid": "12606",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        },
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 11,
+          "region": "高雄市",
+          "officialText": "六龜區:今天停止上班、停止上課。甲仙區:今天停止上班、停止上課。杉林區:今天停止上班、停止上課。那瑪夏區:今天停止上班、停止上課。茂林區:今天停止上班、停止上課。桃源區:今天停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12606",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/402edf8e-fd30-4e58-a945-0c9a45d92221.html&nfix=&name=nds.html",
+          "pid": "12606",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        }
+      ],
+      "attempts": 1
     },
     {
       "pid": "12602",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=12602",
       "title": "114.07.11 114年7月10日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:13:52.746094+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 114,
+        "month": 7,
+        "day": 10
+      },
+      "dates": [
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 10
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/e7087879-168f-4805-bb7e-f281fd6a3ca3.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 10
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2025-07-10T22:13:16",
+          "sha256": "e01d842f7187738284ed2a50a92e428616b124339d5c3b47e450ec2c6e4a826d",
+          "rawRegionTexts": {
+            "臺南市": "新營區:今天停止上班、停止上課。 新營區:明天停止上班、停止上課。 鹽水區:今天停止上班、停止上課。 鹽水區:明天停止上班、停止上課。 白河區:今天停止上班、停止上課。 白河區:明天停止上班、停止上課。 柳營區:今天停止上班、停止上課。 柳營區:明天停止上班、停止上課。 後壁區:今天停止上班、停止上課。 後壁區:明天停止上班、停止上課。 東山區:今天停止上班、停止上課。 東山區:明天停止上班、停止上課。 佳里區:今天停止上班、停止上課。 佳里區:明天停止上班、停止上課。 學甲區:今天停止上班、停止上課。 學甲區:明天停止上班、停止上課。 西港區:今天停止上班、停止上課。 西港區:明天停止上班、停止上課。 七股區:今天停止上班、停止上課。 七股區:明天停止上班、停止上課。 將軍區:今天停止上班、停止上課。 將軍區:明天停止上班、停止上課。 北門區:今天停止上班、停止上課。 北門區:明天停止上班、停止上課。",
+            "高雄市": "六龜區:今天停止上班、停止上課。 六龜區:明天停止上班、停止上課。 甲仙區:今天停止上班、停止上課。 甲仙區:明天停止上班、停止上課。 杉林區:明天停止上班、停止上課。 那瑪夏區:今天停止上班、停止上課。 那瑪夏區:明天停止上班、停止上課。 茂林區:今天停止上班、停止上課。 茂林區:明天停止上班、停止上課。 桃源區:今天停止上班、停止上課。 桃源區:明天停止上班、停止上課。"
+          },
+          "dispositions": {
+            "臺南市": "manual-closure-type",
+            "高雄市": "manual-closure-type"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "12602",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 10
+          },
+          "region": "臺南市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "2025-07-10T22:13:16",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/e7087879-168f-4805-bb7e-f281fd6a3ca3.html&nfix=&name=nds.html",
+          "rawText": "新營區:今天停止上班、停止上課。 新營區:明天停止上班、停止上課。 鹽水區:今天停止上班、停止上課。 鹽水區:明天停止上班、停止上課。 白河區:今天停止上班、停止上課。 白河區:明天停止上班、停止上課。 柳營區:今天停止上班、停止上課。 柳營區:明天停止上班、停止上課。 後壁區:今天停止上班、停止上課。 後壁區:明天停止上班、停止上課。 東山區:今天停止上班、停止上課。 東山區:明天停止上班、停止上課。 佳里區:今天停止上班、停止上課。 佳里區:明天停止上班、停止上課。 學甲區:今天停止上班、停止上課。 學甲區:明天停止上班、停止上課。 西港區:今天停止上班、停止上課。 西港區:明天停止上班、停止上課。 七股區:今天停止上班、停止上課。 七股區:明天停止上班、停止上課。 將軍區:今天停止上班、停止上課。 將軍區:明天停止上班、停止上課。 北門區:今天停止上班、停止上課。 北門區:明天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 10,
+            "region": "臺南市",
+            "officialText": "新營區:今天停止上班、停止上課。新營區:明天停止上班、停止上課。鹽水區:今天停止上班、停止上課。鹽水區:明天停止上班、停止上課。白河區:今天停止上班、停止上課。白河區:明天停止上班、停止上課。柳營區:今天停止上班、停止上課。柳營區:明天停止上班、停止上課。後壁區:今天停止上班、停止上課。後壁區:明天停止上班、停止上課。東山區:今天停止上班、停止上課。東山區:明天停止上班、停止上課。佳里區:今天停止上班、停止上課。佳里區:明天停止上班、停止上課。學甲區:今天停止上班、停止上課。學甲區:明天停止上班、停止上課。西港區:今天停止上班、停止上課。西港區:明天停止上班、停止上課。七股區:今天停止上班、停止上課。七股區:明天停止上班、停止上課。將軍區:今天停止上班、停止上課。將軍區:明天停止上班、停止上課。北門區:今天停止上班、停止上課。北門區:明天停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12602",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/e7087879-168f-4805-bb7e-f281fd6a3ca3.html&nfix=&name=nds.html",
+            "pid": "12602",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        },
+        {
+          "pid": "12602",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 10
+          },
+          "region": "高雄市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "2025-07-10T22:13:16",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/e7087879-168f-4805-bb7e-f281fd6a3ca3.html&nfix=&name=nds.html",
+          "rawText": "六龜區:今天停止上班、停止上課。 六龜區:明天停止上班、停止上課。 甲仙區:今天停止上班、停止上課。 甲仙區:明天停止上班、停止上課。 杉林區:明天停止上班、停止上課。 那瑪夏區:今天停止上班、停止上課。 那瑪夏區:明天停止上班、停止上課。 茂林區:今天停止上班、停止上課。 茂林區:明天停止上班、停止上課。 桃源區:今天停止上班、停止上課。 桃源區:明天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 10,
+            "region": "高雄市",
+            "officialText": "六龜區:今天停止上班、停止上課。六龜區:明天停止上班、停止上課。甲仙區:今天停止上班、停止上課。甲仙區:明天停止上班、停止上課。杉林區:明天停止上班、停止上課。那瑪夏區:今天停止上班、停止上課。那瑪夏區:明天停止上班、停止上課。茂林區:今天停止上班、停止上課。茂林區:明天停止上班、停止上課。桃源區:今天停止上班、停止上課。桃源區:明天停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12602",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/e7087879-168f-4805-bb7e-f281fd6a3ca3.html&nfix=&name=nds.html",
+            "pid": "12602",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        }
+      ],
+      "dispositions": {
+        "臺南市": "manual-closure-type",
+        "高雄市": "manual-closure-type"
+      },
+      "rawRegionTexts": {
+        "臺南市": "新營區:今天停止上班、停止上課。 新營區:明天停止上班、停止上課。 鹽水區:今天停止上班、停止上課。 鹽水區:明天停止上班、停止上課。 白河區:今天停止上班、停止上課。 白河區:明天停止上班、停止上課。 柳營區:今天停止上班、停止上課。 柳營區:明天停止上班、停止上課。 後壁區:今天停止上班、停止上課。 後壁區:明天停止上班、停止上課。 東山區:今天停止上班、停止上課。 東山區:明天停止上班、停止上課。 佳里區:今天停止上班、停止上課。 佳里區:明天停止上班、停止上課。 學甲區:今天停止上班、停止上課。 學甲區:明天停止上班、停止上課。 西港區:今天停止上班、停止上課。 西港區:明天停止上班、停止上課。 七股區:今天停止上班、停止上課。 七股區:明天停止上班、停止上課。 將軍區:今天停止上班、停止上課。 將軍區:明天停止上班、停止上課。 北門區:今天停止上班、停止上課。 北門區:明天停止上班、停止上課。",
+        "高雄市": "六龜區:今天停止上班、停止上課。 六龜區:明天停止上班、停止上課。 甲仙區:今天停止上班、停止上課。 甲仙區:明天停止上班、停止上課。 杉林區:明天停止上班、停止上課。 那瑪夏區:今天停止上班、停止上課。 那瑪夏區:明天停止上班、停止上課。 茂林區:今天停止上班、停止上課。 茂林區:明天停止上班、停止上課。 桃源區:今天停止上班、停止上課。 桃源區:明天停止上班、停止上課。"
+      },
+      "detailSha256": "0b2c39889ba88de5594feb8e41e25d8455e96c613dc3747896c869d19be1ffeb",
+      "events": [],
+      "reviewItems": [
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 10,
+          "region": "臺南市",
+          "officialText": "新營區:今天停止上班、停止上課。新營區:明天停止上班、停止上課。鹽水區:今天停止上班、停止上課。鹽水區:明天停止上班、停止上課。白河區:今天停止上班、停止上課。白河區:明天停止上班、停止上課。柳營區:今天停止上班、停止上課。柳營區:明天停止上班、停止上課。後壁區:今天停止上班、停止上課。後壁區:明天停止上班、停止上課。東山區:今天停止上班、停止上課。東山區:明天停止上班、停止上課。佳里區:今天停止上班、停止上課。佳里區:明天停止上班、停止上課。學甲區:今天停止上班、停止上課。學甲區:明天停止上班、停止上課。西港區:今天停止上班、停止上課。西港區:明天停止上班、停止上課。七股區:今天停止上班、停止上課。七股區:明天停止上班、停止上課。將軍區:今天停止上班、停止上課。將軍區:明天停止上班、停止上課。北門區:今天停止上班、停止上課。北門區:明天停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12602",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/e7087879-168f-4805-bb7e-f281fd6a3ca3.html&nfix=&name=nds.html",
+          "pid": "12602",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        },
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 10,
+          "region": "高雄市",
+          "officialText": "六龜區:今天停止上班、停止上課。六龜區:明天停止上班、停止上課。甲仙區:今天停止上班、停止上課。甲仙區:明天停止上班、停止上課。杉林區:明天停止上班、停止上課。那瑪夏區:今天停止上班、停止上課。那瑪夏區:明天停止上班、停止上課。茂林區:今天停止上班、停止上課。茂林區:明天停止上班、停止上課。桃源區:今天停止上班、停止上課。桃源區:明天停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12602",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/e7087879-168f-4805-bb7e-f281fd6a3ca3.html&nfix=&name=nds.html",
+          "pid": "12602",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        }
+      ],
+      "attempts": 1
     },
     {
       "pid": "12600",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=12600",
       "title": "114.07.10 114年7月9日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:13:53.899662+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 114,
+        "month": 7,
+        "day": 9
+      },
+      "dates": [
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 9
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/4c26d765-56b8-48ef-a640-f2c1c844a43c.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 9
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2025-07-09T23:08:17",
+          "sha256": "4dbc11d0dc2d64f360d24e60da93e20aafbf249658ecf7b1612485566e4c5fac",
+          "rawRegionTexts": {
+            "臺南市": "新營區:今天停止上班、停止上課。 新營區:明天停止上班、停止上課。 鹽水區:今天停止上班、停止上課。 鹽水區:明天停止上班、停止上課。 白河區:今天停止上班、停止上課。 白河區:明天停止上班、停止上課。 柳營區:今天停止上班、停止上課。 柳營區:明天停止上班、停止上課。 後壁區:今天停止上班、停止上課。 後壁區:明天停止上班、停止上課。 東山區:今天停止上班、停止上課。 東山區:明天停止上班、停止上課。 佳里區:今天停止上班、停止上課。 佳里區:明天停止上班、停止上課。 學甲區:今天停止上班、停止上課。 學甲區:明天停止上班、停止上課。 西港區:今天停止上班、停止上課。 西港區:明天停止上班、停止上課。 七股區:今天停止上班、停止上課。 七股區:明天停止上班、停止上課。 將軍區:今天停止上班、停止上課。 將軍區:明天停止上班、停止上課。 北門區:今天停止上班、停止上課。 北門區:明天停止上班、停止上課。",
+            "高雄市": "六龜區:明天停止上班、停止上課。 甲仙區:明天停止上班、停止上課。 那瑪夏區:明天停止上班、停止上課。 茂林區:明天停止上班、停止上課。 桃源區:明天停止上班、停止上課。"
+          },
+          "dispositions": {
+            "臺南市": "manual-closure-type",
+            "高雄市": "manual-closure-type"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "12600",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 9
+          },
+          "region": "臺南市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "2025-07-09T23:08:17",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/4c26d765-56b8-48ef-a640-f2c1c844a43c.html&nfix=&name=nds.html",
+          "rawText": "新營區:今天停止上班、停止上課。 新營區:明天停止上班、停止上課。 鹽水區:今天停止上班、停止上課。 鹽水區:明天停止上班、停止上課。 白河區:今天停止上班、停止上課。 白河區:明天停止上班、停止上課。 柳營區:今天停止上班、停止上課。 柳營區:明天停止上班、停止上課。 後壁區:今天停止上班、停止上課。 後壁區:明天停止上班、停止上課。 東山區:今天停止上班、停止上課。 東山區:明天停止上班、停止上課。 佳里區:今天停止上班、停止上課。 佳里區:明天停止上班、停止上課。 學甲區:今天停止上班、停止上課。 學甲區:明天停止上班、停止上課。 西港區:今天停止上班、停止上課。 西港區:明天停止上班、停止上課。 七股區:今天停止上班、停止上課。 七股區:明天停止上班、停止上課。 將軍區:今天停止上班、停止上課。 將軍區:明天停止上班、停止上課。 北門區:今天停止上班、停止上課。 北門區:明天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 9,
+            "region": "臺南市",
+            "officialText": "新營區:今天停止上班、停止上課。新營區:明天停止上班、停止上課。鹽水區:今天停止上班、停止上課。鹽水區:明天停止上班、停止上課。白河區:今天停止上班、停止上課。白河區:明天停止上班、停止上課。柳營區:今天停止上班、停止上課。柳營區:明天停止上班、停止上課。後壁區:今天停止上班、停止上課。後壁區:明天停止上班、停止上課。東山區:今天停止上班、停止上課。東山區:明天停止上班、停止上課。佳里區:今天停止上班、停止上課。佳里區:明天停止上班、停止上課。學甲區:今天停止上班、停止上課。學甲區:明天停止上班、停止上課。西港區:今天停止上班、停止上課。西港區:明天停止上班、停止上課。七股區:今天停止上班、停止上課。七股區:明天停止上班、停止上課。將軍區:今天停止上班、停止上課。將軍區:明天停止上班、停止上課。北門區:今天停止上班、停止上課。北門區:明天停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12600",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/4c26d765-56b8-48ef-a640-f2c1c844a43c.html&nfix=&name=nds.html",
+            "pid": "12600",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        },
+        {
+          "pid": "12600",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 9
+          },
+          "region": "高雄市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "2025-07-09T23:08:17",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/4c26d765-56b8-48ef-a640-f2c1c844a43c.html&nfix=&name=nds.html",
+          "rawText": "六龜區:明天停止上班、停止上課。 甲仙區:明天停止上班、停止上課。 那瑪夏區:明天停止上班、停止上課。 茂林區:明天停止上班、停止上課。 桃源區:明天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 9,
+            "region": "高雄市",
+            "officialText": "六龜區:明天停止上班、停止上課。甲仙區:明天停止上班、停止上課。那瑪夏區:明天停止上班、停止上課。茂林區:明天停止上班、停止上課。桃源區:明天停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12600",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/4c26d765-56b8-48ef-a640-f2c1c844a43c.html&nfix=&name=nds.html",
+            "pid": "12600",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        }
+      ],
+      "dispositions": {
+        "臺南市": "manual-closure-type",
+        "高雄市": "manual-closure-type"
+      },
+      "rawRegionTexts": {
+        "臺南市": "新營區:今天停止上班、停止上課。 新營區:明天停止上班、停止上課。 鹽水區:今天停止上班、停止上課。 鹽水區:明天停止上班、停止上課。 白河區:今天停止上班、停止上課。 白河區:明天停止上班、停止上課。 柳營區:今天停止上班、停止上課。 柳營區:明天停止上班、停止上課。 後壁區:今天停止上班、停止上課。 後壁區:明天停止上班、停止上課。 東山區:今天停止上班、停止上課。 東山區:明天停止上班、停止上課。 佳里區:今天停止上班、停止上課。 佳里區:明天停止上班、停止上課。 學甲區:今天停止上班、停止上課。 學甲區:明天停止上班、停止上課。 西港區:今天停止上班、停止上課。 西港區:明天停止上班、停止上課。 七股區:今天停止上班、停止上課。 七股區:明天停止上班、停止上課。 將軍區:今天停止上班、停止上課。 將軍區:明天停止上班、停止上課。 北門區:今天停止上班、停止上課。 北門區:明天停止上班、停止上課。",
+        "高雄市": "六龜區:明天停止上班、停止上課。 甲仙區:明天停止上班、停止上課。 那瑪夏區:明天停止上班、停止上課。 茂林區:明天停止上班、停止上課。 桃源區:明天停止上班、停止上課。"
+      },
+      "detailSha256": "77073d45dea8d54da3d6672c48e0aef071ddda87330fff59018cd34763f3f87a",
+      "events": [],
+      "reviewItems": [
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 9,
+          "region": "臺南市",
+          "officialText": "新營區:今天停止上班、停止上課。新營區:明天停止上班、停止上課。鹽水區:今天停止上班、停止上課。鹽水區:明天停止上班、停止上課。白河區:今天停止上班、停止上課。白河區:明天停止上班、停止上課。柳營區:今天停止上班、停止上課。柳營區:明天停止上班、停止上課。後壁區:今天停止上班、停止上課。後壁區:明天停止上班、停止上課。東山區:今天停止上班、停止上課。東山區:明天停止上班、停止上課。佳里區:今天停止上班、停止上課。佳里區:明天停止上班、停止上課。學甲區:今天停止上班、停止上課。學甲區:明天停止上班、停止上課。西港區:今天停止上班、停止上課。西港區:明天停止上班、停止上課。七股區:今天停止上班、停止上課。七股區:明天停止上班、停止上課。將軍區:今天停止上班、停止上課。將軍區:明天停止上班、停止上課。北門區:今天停止上班、停止上課。北門區:明天停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12600",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/4c26d765-56b8-48ef-a640-f2c1c844a43c.html&nfix=&name=nds.html",
+          "pid": "12600",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        },
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 9,
+          "region": "高雄市",
+          "officialText": "六龜區:明天停止上班、停止上課。甲仙區:明天停止上班、停止上課。那瑪夏區:明天停止上班、停止上課。茂林區:明天停止上班、停止上課。桃源區:明天停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12600",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/4c26d765-56b8-48ef-a640-f2c1c844a43c.html&nfix=&name=nds.html",
+          "pid": "12600",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        }
+      ],
+      "attempts": 1
     },
     {
       "pid": "12597",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=12597",
       "title": "114.07.09 114年7月8日天然災害停止辦公及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-28T22:13:55.063455+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 114,
+        "month": 7,
+        "day": 8
+      },
+      "dates": [
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 8
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/ff79cfa8-9a33-49e9-a8db-b4adafa7a3c6.html&nfix=&name=nds.html",
+          "label": "nds.html",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 8
+          },
+          "dateSource": "Header_YMD",
+          "officialUpdatedAt": "2025-07-08T22:02:19",
+          "sha256": "23d00fb05853142cdcf4d3b998782b44a1393130f7cd71f468f9616bd1e9a321",
+          "rawRegionTexts": {
+            "臺南市": "新營區:今天停止上班、停止上課。 新營區:明天停止上班、停止上課。 鹽水區:今天停止上班、停止上課。 鹽水區:明天停止上班、停止上課。 白河區:今天停止上班、停止上課。 白河區:明天停止上班、停止上課。 柳營區:今天停止上班、停止上課。 柳營區:明天停止上班、停止上課。 後壁區:今天停止上班、停止上課。 後壁區:明天停止上班、停止上課。 東山區:今天停止上班、停止上課。 東山區:明天停止上班、停止上課。 麻豆區:今天停止上班、停止上課。 下營區:今天停止上班、停止上課。 六甲區:今天停止上班、停止上課。 官田區:今天停止上班、停止上課。 佳里區:今天停止上班、停止上課。 佳里區:明天停止上班、停止上課。 學甲區:今天停止上班、停止上課。 學甲區:明天停止上班、停止上課。 西港區:今天停止上班、停止上課。 西港區:明天停止上班、停止上課。 七股區:今天停止上班、停止上課。 七股區:明天停止上班、停止上課。 將軍區:今天停止上班、停止上課。 將軍區:明天停止上班、停止上課。 北門區:今天停止上班、停止上課。 北門區:明天停止上班、停止上課。",
+            "高雄市": "桃源區拉芙蘭里:今天停止上班、停止上課。 桃源區梅山里:今天停止上班、停止上課。 桃源區復興里:今天停止上班、停止上課。"
+          },
+          "dispositions": {
+            "臺南市": "manual-closure-type",
+            "高雄市": "manual-closure-type"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "12597",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 8
+          },
+          "region": "臺南市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "2025-07-08T22:02:19",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/ff79cfa8-9a33-49e9-a8db-b4adafa7a3c6.html&nfix=&name=nds.html",
+          "rawText": "新營區:今天停止上班、停止上課。 新營區:明天停止上班、停止上課。 鹽水區:今天停止上班、停止上課。 鹽水區:明天停止上班、停止上課。 白河區:今天停止上班、停止上課。 白河區:明天停止上班、停止上課。 柳營區:今天停止上班、停止上課。 柳營區:明天停止上班、停止上課。 後壁區:今天停止上班、停止上課。 後壁區:明天停止上班、停止上課。 東山區:今天停止上班、停止上課。 東山區:明天停止上班、停止上課。 麻豆區:今天停止上班、停止上課。 下營區:今天停止上班、停止上課。 六甲區:今天停止上班、停止上課。 官田區:今天停止上班、停止上課。 佳里區:今天停止上班、停止上課。 佳里區:明天停止上班、停止上課。 學甲區:今天停止上班、停止上課。 學甲區:明天停止上班、停止上課。 西港區:今天停止上班、停止上課。 西港區:明天停止上班、停止上課。 七股區:今天停止上班、停止上課。 七股區:明天停止上班、停止上課。 將軍區:今天停止上班、停止上課。 將軍區:明天停止上班、停止上課。 北門區:今天停止上班、停止上課。 北門區:明天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 8,
+            "region": "臺南市",
+            "officialText": "新營區:今天停止上班、停止上課。新營區:明天停止上班、停止上課。鹽水區:今天停止上班、停止上課。鹽水區:明天停止上班、停止上課。白河區:今天停止上班、停止上課。白河區:明天停止上班、停止上課。柳營區:今天停止上班、停止上課。柳營區:明天停止上班、停止上課。後壁區:今天停止上班、停止上課。後壁區:明天停止上班、停止上課。東山區:今天停止上班、停止上課。東山區:明天停止上班、停止上課。麻豆區:今天停止上班、停止上課。下營區:今天停止上班、停止上課。六甲區:今天停止上班、停止上課。官田區:今天停止上班、停止上課。佳里區:今天停止上班、停止上課。佳里區:明天停止上班、停止上課。學甲區:今天停止上班、停止上課。學甲區:明天停止上班、停止上課。西港區:今天停止上班、停止上課。西港區:明天停止上班、停止上課。七股區:今天停止上班、停止上課。七股區:明天停止上班、停止上課。將軍區:今天停止上班、停止上課。將軍區:明天停止上班、停止上課。北門區:今天停止上班、停止上課。北門區:明天停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12597",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/ff79cfa8-9a33-49e9-a8db-b4adafa7a3c6.html&nfix=&name=nds.html",
+            "pid": "12597",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        },
+        {
+          "pid": "12597",
+          "date": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 8
+          },
+          "region": "高雄市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "2025-07-08T22:02:19",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/ff79cfa8-9a33-49e9-a8db-b4adafa7a3c6.html&nfix=&name=nds.html",
+          "rawText": "桃源區拉芙蘭里:今天停止上班、停止上課。 桃源區梅山里:今天停止上班、停止上課。 桃源區復興里:今天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 114,
+            "month": 7,
+            "day": 8,
+            "region": "高雄市",
+            "officialText": "桃源區拉芙蘭里:今天停止上班、停止上課。桃源區梅山里:今天停止上班、停止上課。桃源區復興里:今天停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12597",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/ff79cfa8-9a33-49e9-a8db-b4adafa7a3c6.html&nfix=&name=nds.html",
+            "pid": "12597",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        }
+      ],
+      "dispositions": {
+        "臺南市": "manual-closure-type",
+        "高雄市": "manual-closure-type"
+      },
+      "rawRegionTexts": {
+        "臺南市": "新營區:今天停止上班、停止上課。 新營區:明天停止上班、停止上課。 鹽水區:今天停止上班、停止上課。 鹽水區:明天停止上班、停止上課。 白河區:今天停止上班、停止上課。 白河區:明天停止上班、停止上課。 柳營區:今天停止上班、停止上課。 柳營區:明天停止上班、停止上課。 後壁區:今天停止上班、停止上課。 後壁區:明天停止上班、停止上課。 東山區:今天停止上班、停止上課。 東山區:明天停止上班、停止上課。 麻豆區:今天停止上班、停止上課。 下營區:今天停止上班、停止上課。 六甲區:今天停止上班、停止上課。 官田區:今天停止上班、停止上課。 佳里區:今天停止上班、停止上課。 佳里區:明天停止上班、停止上課。 學甲區:今天停止上班、停止上課。 學甲區:明天停止上班、停止上課。 西港區:今天停止上班、停止上課。 西港區:明天停止上班、停止上課。 七股區:今天停止上班、停止上課。 七股區:明天停止上班、停止上課。 將軍區:今天停止上班、停止上課。 將軍區:明天停止上班、停止上課。 北門區:今天停止上班、停止上課。 北門區:明天停止上班、停止上課。",
+        "高雄市": "桃源區拉芙蘭里:今天停止上班、停止上課。 桃源區梅山里:今天停止上班、停止上課。 桃源區復興里:今天停止上班、停止上課。"
+      },
+      "detailSha256": "09fcef02d1eddc4805ee48ffdc6a611f9c82e49dc2b091bf07677ed4d20ce32b",
+      "events": [],
+      "reviewItems": [
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 8,
+          "region": "臺南市",
+          "officialText": "新營區:今天停止上班、停止上課。新營區:明天停止上班、停止上課。鹽水區:今天停止上班、停止上課。鹽水區:明天停止上班、停止上課。白河區:今天停止上班、停止上課。白河區:明天停止上班、停止上課。柳營區:今天停止上班、停止上課。柳營區:明天停止上班、停止上課。後壁區:今天停止上班、停止上課。後壁區:明天停止上班、停止上課。東山區:今天停止上班、停止上課。東山區:明天停止上班、停止上課。麻豆區:今天停止上班、停止上課。下營區:今天停止上班、停止上課。六甲區:今天停止上班、停止上課。官田區:今天停止上班、停止上課。佳里區:今天停止上班、停止上課。佳里區:明天停止上班、停止上課。學甲區:今天停止上班、停止上課。學甲區:明天停止上班、停止上課。西港區:今天停止上班、停止上課。西港區:明天停止上班、停止上課。七股區:今天停止上班、停止上課。七股區:明天停止上班、停止上課。將軍區:今天停止上班、停止上課。將軍區:明天停止上班、停止上課。北門區:今天停止上班、停止上課。北門區:明天停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12597",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/ff79cfa8-9a33-49e9-a8db-b4adafa7a3c6.html&nfix=&name=nds.html",
+          "pid": "12597",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        },
+        {
+          "rocYear": 114,
+          "month": 7,
+          "day": 8,
+          "region": "高雄市",
+          "officialText": "桃源區拉芙蘭里:今天停止上班、停止上課。桃源區梅山里:今天停止上班、停止上課。桃源區復興里:今天停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=12597",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202507/ff79cfa8-9a33-49e9-a8db-b4adafa7a3c6.html&nfix=&name=nds.html",
+          "pid": "12597",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        }
+      ],
+      "attempts": 1
     },
     {
       "pid": "12594",
