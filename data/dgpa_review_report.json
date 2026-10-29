@@ -5,14 +5,14 @@
   "phase": "review",
   "parserVersion": "4-eca37b4bf5578172",
   "startedAt": "2026-10-28T18:22:26.495557+08:00",
-  "updatedAt": "2026-10-30T07:28:11.996793+08:00",
+  "updatedAt": "2026-10-30T07:28:22.005808+08:00",
   "completedAt": null,
   "counts": {
     "total": 503,
-    "completed": 387,
+    "completed": 397,
     "failed": 0,
-    "pending": 116,
-    "manualItems": 116
+    "pending": 106,
+    "manualItems": 121
   },
   "scan": {
     "nextPage": 1,
@@ -31457,61 +31457,888 @@
       "pid": "7075",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7075",
       "title": "102.09.02 102年09月02日天然災害停止上班及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-30T07:28:14.175015+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 102,
+        "month": 9,
+        "day": 2
+      },
+      "dates": [
+        {
+          "rocYear": 102,
+          "month": 9,
+          "day": 2
+        }
+      ],
+      "detailSha256": "c77bdf31f369f371c9ceb4042e76beeab40a4e892c777e5e5c044d3d653eb8e3",
+      "events": [],
+      "reviewItems": [],
+      "observations": [
+        {
+          "pid": "7075",
+          "date": {
+            "rocYear": 102,
+            "month": 9,
+            "day": 2
+          },
+          "region": "高雄市",
+          "disposition": "school-only",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7075",
+          "rawText": "高雄市桃源區桃源國中, 樟山國小宣布停止上課, 照常上班",
+          "event": null,
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "高雄市": "school-only",
+        "臺南市": "not-listed"
+      },
+      "attachments": [
+        {
+          "kind": "inline",
+          "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7075",
+          "label": "102年09月02日天然災害停止上班及上課情形",
+          "date": {
+            "rocYear": 102,
+            "month": 9,
+            "day": 2
+          },
+          "dateSource": "inline-official-heading",
+          "rawBody": [
+            "高雄市桃源區桃源國中, 樟山國小宣布停止上課, 照常上班"
+          ],
+          "sha256": "c77bdf31f369f371c9ceb4042e76beeab40a4e892c777e5e5c044d3d653eb8e3"
+        }
+      ],
+      "rawRegionTexts": {
+        "高雄市": "高雄市桃源區桃源國中, 樟山國小宣布停止上課, 照常上班",
+        "臺南市": ""
+      },
+      "attempts": 1
     },
     {
       "pid": "7076",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7076",
       "title": "102.08.31 102年08月31日天然災害停止上班及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-30T07:28:14.758015+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 102,
+        "month": 8,
+        "day": 31
+      },
+      "dates": [
+        {
+          "rocYear": 102,
+          "month": 8,
+          "day": 31
+        }
+      ],
+      "detailSha256": "3e813d0254118f6d20825eae5a21cd195b818595fb5018aab87c0afc1c1e77f6",
+      "events": [],
+      "reviewItems": [
+        {
+          "rocYear": 102,
+          "month": 8,
+          "day": 31,
+          "region": "臺南市",
+          "officialText": "臺南市102年8月31日晚上已達停止上班及上課標準(102年8月31日晚上停止上班上課)。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7076",
+          "ndsUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7076",
+          "pid": "7076",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        }
+      ],
+      "observations": [
+        {
+          "pid": "7076",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 31
+          },
+          "region": "臺南市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7076",
+          "rawText": "臺南市102年8月31日晚上已達停止上班及上課標準(102年8月31日晚上停止上班上課)。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 31,
+            "region": "臺南市",
+            "officialText": "臺南市102年8月31日晚上已達停止上班及上課標準(102年8月31日晚上停止上班上課)。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7076",
+            "ndsUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7076",
+            "pid": "7076",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        }
+      ],
+      "dispositions": {
+        "高雄市": "not-listed",
+        "臺南市": "manual-closure-type"
+      },
+      "attachments": [
+        {
+          "kind": "inline",
+          "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7076",
+          "label": "102年08月31日天然災害停止上班及上課情形",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 31
+          },
+          "dateSource": "inline-body",
+          "rawBody": [
+            "臺南市102年8月31日晚上已達停止上班及上課標準(102年8月31日晚上停止上班上課)。"
+          ],
+          "sha256": "3e813d0254118f6d20825eae5a21cd195b818595fb5018aab87c0afc1c1e77f6"
+        }
+      ],
+      "rawRegionTexts": {
+        "高雄市": "",
+        "臺南市": "臺南市102年8月31日晚上已達停止上班及上課標準(102年8月31日晚上停止上班上課)。"
+      },
+      "attempts": 1
     },
     {
       "pid": "7132",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7132",
       "title": "102.08.30 102年08月30日天然災害停止上班及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-30T07:28:15.845212+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 102,
+        "month": 8,
+        "day": 30
+      },
+      "dates": [
+        {
+          "rocYear": 102,
+          "month": 8,
+          "day": 30
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/383010384127.html&nfix=&name=102%e5%b9%b408%e6%9c%8830%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2",
+          "label": "102年08月30日天然災害停止上班及上課情形.html",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 30
+          },
+          "dateSource": "attachment-heading",
+          "officialUpdatedAt": "",
+          "sha256": "54dbe1409565348b209aa5661460990604cc57f7c4e70053955606de27d78f93",
+          "rawRegionTexts": {
+            "臺南市": "今天照常上班、照常上課。",
+            "高雄市": "今天照常上班、照常上課。 桃源區桃源國中、樟山國小、內門區金竹國小、溝坪國小:今日停止上班上課 美濃區美濃國小:停止上課、照常上班"
+          },
+          "dispositions": {
+            "高雄市": "no-full-day-closure",
+            "臺南市": "no-full-day-closure"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "7132",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 30
+          },
+          "region": "臺南市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/383010384127.html&nfix=&name=102%e5%b9%b408%e6%9c%8830%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2",
+          "rawText": "今天照常上班、照常上課。",
+          "event": null,
+          "reviewItem": null
+        },
+        {
+          "pid": "7132",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 30
+          },
+          "region": "高雄市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/383010384127.html&nfix=&name=102%e5%b9%b408%e6%9c%8830%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2",
+          "rawText": "今天照常上班、照常上課。 桃源區桃源國中、樟山國小、內門區金竹國小、溝坪國小:今日停止上班上課 美濃區美濃國小:停止上課、照常上班",
+          "event": null,
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "高雄市": "no-full-day-closure",
+        "臺南市": "no-full-day-closure"
+      },
+      "rawRegionTexts": {
+        "高雄市": "今天照常上班、照常上課。 桃源區桃源國中、樟山國小、內門區金竹國小、溝坪國小:今日停止上班上課 美濃區美濃國小:停止上課、照常上班",
+        "臺南市": "今天照常上班、照常上課。"
+      },
+      "detailSha256": "e4d38b73075290ff3b8bdf1c98a17b20df82d1027d14f063d373217414313d8b",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "7131",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7131",
       "title": "102.08.29 102年08月29日天然災害停止上班及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-30T07:28:16.948446+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 102,
+        "month": 8,
+        "day": 29
+      },
+      "dates": [
+        {
+          "rocYear": 102,
+          "month": 8,
+          "day": 29
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/38291729839.html&nfix=&name=102%e5%b9%b408%e6%9c%8829%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2",
+          "label": "102年08月29日天然災害停止上班及上課情形.html",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 29
+          },
+          "dateSource": "attachment-heading",
+          "officialUpdatedAt": "",
+          "sha256": "e19e94015d8a753d41d985d5c505ef2cf969eb81ab8fca9b3cfd9e5557088d3a",
+          "rawRegionTexts": {
+            "臺南市": "今天下午停止上班、停止上課。",
+            "高雄市": "今天下午停止上班、停止上課。 茂林區:今天停止上班、停止上課。 桃源區:今天停止上班、停止上課。 那瑪夏區:今天停止上班、停止上課。"
+          },
+          "dispositions": {
+            "高雄市": "manual-closure-type",
+            "臺南市": "manual-closure-type"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "7131",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 29
+          },
+          "region": "臺南市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/38291729839.html&nfix=&name=102%e5%b9%b408%e6%9c%8829%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2",
+          "rawText": "今天下午停止上班、停止上課。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 29,
+            "region": "臺南市",
+            "officialText": "今天下午停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7131",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/38291729839.html&nfix=&name=102%e5%b9%b408%e6%9c%8829%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2",
+            "pid": "7131",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        },
+        {
+          "pid": "7131",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 29
+          },
+          "region": "高雄市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/38291729839.html&nfix=&name=102%e5%b9%b408%e6%9c%8829%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2",
+          "rawText": "今天下午停止上班、停止上課。 茂林區:今天停止上班、停止上課。 桃源區:今天停止上班、停止上課。 那瑪夏區:今天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 29,
+            "region": "高雄市",
+            "officialText": "今天下午停止上班、停止上課。茂林區:今天停止上班、停止上課。桃源區:今天停止上班、停止上課。那瑪夏區:今天停止上班、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7131",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/38291729839.html&nfix=&name=102%e5%b9%b408%e6%9c%8829%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2",
+            "pid": "7131",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        }
+      ],
+      "dispositions": {
+        "高雄市": "manual-closure-type",
+        "臺南市": "manual-closure-type"
+      },
+      "rawRegionTexts": {
+        "高雄市": "今天下午停止上班、停止上課。 茂林區:今天停止上班、停止上課。 桃源區:今天停止上班、停止上課。 那瑪夏區:今天停止上班、停止上課。",
+        "臺南市": "今天下午停止上班、停止上課。"
+      },
+      "detailSha256": "32fe0455a3c2631728caebddfda37f02595c8af8db75544e0c72fd8bc8f70117",
+      "events": [],
+      "reviewItems": [
+        {
+          "rocYear": 102,
+          "month": 8,
+          "day": 29,
+          "region": "臺南市",
+          "officialText": "今天下午停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7131",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/38291729839.html&nfix=&name=102%e5%b9%b408%e6%9c%8829%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2",
+          "pid": "7131",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        },
+        {
+          "rocYear": 102,
+          "month": 8,
+          "day": 29,
+          "region": "高雄市",
+          "officialText": "今天下午停止上班、停止上課。茂林區:今天停止上班、停止上課。桃源區:今天停止上班、停止上課。那瑪夏區:今天停止上班、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7131",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/38291729839.html&nfix=&name=102%e5%b9%b408%e6%9c%8829%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2",
+          "pid": "7131",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        }
+      ],
+      "attempts": 1
     },
     {
       "pid": "7130",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7130",
       "title": "102.08.28 102年08月28日天然災害停止上班及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-30T07:28:18.047901+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 102,
+        "month": 8,
+        "day": 28
+      },
+      "dates": [
+        {
+          "rocYear": 102,
+          "month": 8,
+          "day": 28
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/38281833462.html&nfix=&name=102%e5%b9%b408%e6%9c%8828%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2+",
+          "label": "102年08月28日天然災害停止上班及上課情形 .html",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 28
+          },
+          "dateSource": "attachment-heading",
+          "officialUpdatedAt": "",
+          "sha256": "f843a19d8dd8e2af9e169b057b21e2d672fe49ee56632f0e4565216e8849bdb5",
+          "rawRegionTexts": {
+            "臺南市": "今天照常上班、照常上課。",
+            "高雄市": "今天照常上班、照常上課。"
+          },
+          "dispositions": {
+            "高雄市": "no-full-day-closure",
+            "臺南市": "no-full-day-closure"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "7130",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 28
+          },
+          "region": "臺南市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/38281833462.html&nfix=&name=102%e5%b9%b408%e6%9c%8828%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2+",
+          "rawText": "今天照常上班、照常上課。",
+          "event": null,
+          "reviewItem": null
+        },
+        {
+          "pid": "7130",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 28
+          },
+          "region": "高雄市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/38281833462.html&nfix=&name=102%e5%b9%b408%e6%9c%8828%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2+",
+          "rawText": "今天照常上班、照常上課。",
+          "event": null,
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "高雄市": "no-full-day-closure",
+        "臺南市": "no-full-day-closure"
+      },
+      "rawRegionTexts": {
+        "高雄市": "今天照常上班、照常上課。",
+        "臺南市": "今天照常上班、照常上課。"
+      },
+      "detailSha256": "99af33d4bf5f59aac10d326c359a6c30326c02286d443e6b9280019d684a7c93",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "7077",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7077",
       "title": "102.08.23 102年08月23日天然災害停止上班及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-30T07:28:18.627284+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 102,
+        "month": 8,
+        "day": 23
+      },
+      "dates": [
+        {
+          "rocYear": 102,
+          "month": 8,
+          "day": 23
+        }
+      ],
+      "detailSha256": "689b3740db3839f11861da142d2a70b540eaf54f4c60fc55c04bbfcdd7458865",
+      "events": [],
+      "reviewItems": [
+        {
+          "rocYear": 102,
+          "month": 8,
+          "day": 23,
+          "region": "高雄市",
+          "officialText": "高雄市桃源區桃源國中102年8月23日停止上班上課",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7077",
+          "ndsUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7077",
+          "pid": "7077",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        }
+      ],
+      "observations": [
+        {
+          "pid": "7077",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 23
+          },
+          "region": "高雄市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7077",
+          "rawText": "高雄市桃源區桃源國中102年8月23日停止上班上課",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 23,
+            "region": "高雄市",
+            "officialText": "高雄市桃源區桃源國中102年8月23日停止上班上課",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7077",
+            "ndsUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7077",
+            "pid": "7077",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        }
+      ],
+      "dispositions": {
+        "高雄市": "manual-closure-type",
+        "臺南市": "not-listed"
+      },
+      "attachments": [
+        {
+          "kind": "inline",
+          "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7077",
+          "label": "102年08月23日天然災害停止上班及上課情形",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 23
+          },
+          "dateSource": "inline-body",
+          "rawBody": [
+            "高雄市桃源區桃源國中102年8月23日停止上班上課"
+          ],
+          "sha256": "689b3740db3839f11861da142d2a70b540eaf54f4c60fc55c04bbfcdd7458865"
+        }
+      ],
+      "rawRegionTexts": {
+        "高雄市": "高雄市桃源區桃源國中102年8月23日停止上班上課",
+        "臺南市": ""
+      },
+      "attempts": 1
     },
     {
       "pid": "7059",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7059",
       "title": "102.08.22 102年08月22日天然災害停止上班及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-30T07:28:19.715642+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 102,
+        "month": 8,
+        "day": 22
+      },
+      "dates": [
+        {
+          "rocYear": 102,
+          "month": 8,
+          "day": 22
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/382211501717.html&nfix=&name=102%e5%b9%b408%e6%9c%8822%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2+",
+          "label": "102年08月22日天然災害停止上班及上課情形 .html",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 22
+          },
+          "dateSource": "attachment-heading",
+          "officialUpdatedAt": "",
+          "sha256": "63d8789bffb07580d6dd37fdd39b6557d7329339c80bd5afeb243e85eb67e1c5",
+          "rawRegionTexts": {
+            "臺南市": "今天照常上班、照常上課。",
+            "高雄市": "今天照常上班、照常上課。 茂林區:今天停止上班、停止上課。 桃源區:今天停止上班、停止上課。 那瑪夏區:今天停止上班、停止上課。"
+          },
+          "dispositions": {
+            "高雄市": "no-full-day-closure",
+            "臺南市": "no-full-day-closure"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "7059",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 22
+          },
+          "region": "臺南市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/382211501717.html&nfix=&name=102%e5%b9%b408%e6%9c%8822%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2+",
+          "rawText": "今天照常上班、照常上課。",
+          "event": null,
+          "reviewItem": null
+        },
+        {
+          "pid": "7059",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 22
+          },
+          "region": "高雄市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/382211501717.html&nfix=&name=102%e5%b9%b408%e6%9c%8822%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2+",
+          "rawText": "今天照常上班、照常上課。 茂林區:今天停止上班、停止上課。 桃源區:今天停止上班、停止上課。 那瑪夏區:今天停止上班、停止上課。",
+          "event": null,
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "高雄市": "no-full-day-closure",
+        "臺南市": "no-full-day-closure"
+      },
+      "rawRegionTexts": {
+        "高雄市": "今天照常上班、照常上課。 茂林區:今天停止上班、停止上課。 桃源區:今天停止上班、停止上課。 那瑪夏區:今天停止上班、停止上課。",
+        "臺南市": "今天照常上班、照常上課。"
+      },
+      "detailSha256": "f2503fa84c18a1f3b339aea97b359e2475f9392712cd80f64f665df6132435bd",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "7058",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7058",
       "title": "102.08.21 102年08月21日天然災害停止上班及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-30T07:28:20.793134+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 102,
+        "month": 8,
+        "day": 21
+      },
+      "dates": [
+        {
+          "rocYear": 102,
+          "month": 8,
+          "day": 21
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/38211851389.html&nfix=&name=102%e5%b9%b408%e6%9c%8821%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2",
+          "label": "102年08月21日天然災害停止上班及上課情形.html",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 21
+          },
+          "dateSource": "attachment-heading",
+          "officialUpdatedAt": "",
+          "sha256": "593763c2badfe4461a050859c73e2285b869884413096b71c16c26a3ac4ab573",
+          "rawRegionTexts": {
+            "臺南市": "今天照常上班、照常上課。",
+            "高雄市": "今天照常上班、照常上課。 那瑪夏區：今天晚上6:00起停止上班、停止上課。"
+          },
+          "dispositions": {
+            "高雄市": "no-full-day-closure",
+            "臺南市": "no-full-day-closure"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "7058",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 21
+          },
+          "region": "臺南市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/38211851389.html&nfix=&name=102%e5%b9%b408%e6%9c%8821%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2",
+          "rawText": "今天照常上班、照常上課。",
+          "event": null,
+          "reviewItem": null
+        },
+        {
+          "pid": "7058",
+          "date": {
+            "rocYear": 102,
+            "month": 8,
+            "day": 21
+          },
+          "region": "高雄市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=public/Attachment/38211851389.html&nfix=&name=102%e5%b9%b408%e6%9c%8821%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e4%b8%8a%e7%8f%ad%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2",
+          "rawText": "今天照常上班、照常上課。 那瑪夏區：今天晚上6:00起停止上班、停止上課。",
+          "event": null,
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "高雄市": "no-full-day-closure",
+        "臺南市": "no-full-day-closure"
+      },
+      "rawRegionTexts": {
+        "高雄市": "今天照常上班、照常上課。 那瑪夏區：今天晚上6:00起停止上班、停止上課。",
+        "臺南市": "今天照常上班、照常上課。"
+      },
+      "detailSha256": "bb2cb9edde3fa36128e60ac3bc2694ec2fb6464a71fbca357dd3dc6e2940b322",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
     },
     {
       "pid": "7078",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7078",
       "title": "102.07.15 102年07月15日天然災害停止上班及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-30T07:28:21.370929+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 102,
+        "month": 7,
+        "day": 15
+      },
+      "dates": [
+        {
+          "rocYear": 102,
+          "month": 7,
+          "day": 15
+        }
+      ],
+      "detailSha256": "30af9d8c9a238cef328884fa30868cd5c478a773429adab14cb974da0276a52c",
+      "events": [],
+      "reviewItems": [],
+      "observations": [],
+      "dispositions": {
+        "高雄市": "not-listed",
+        "臺南市": "not-listed"
+      },
+      "attachments": [
+        {
+          "kind": "inline",
+          "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7078",
+          "label": "102年07月15日天然災害停止上班及上課情形",
+          "date": {
+            "rocYear": 102,
+            "month": 7,
+            "day": 15
+          },
+          "dateSource": "inline-official-heading",
+          "rawBody": [
+            "桃園縣永安國中今天上午停課、不停班。"
+          ],
+          "sha256": "30af9d8c9a238cef328884fa30868cd5c478a773429adab14cb974da0276a52c"
+        }
+      ],
+      "rawRegionTexts": {
+        "高雄市": "",
+        "臺南市": ""
+      },
+      "attempts": 1
     },
     {
       "pid": "7079",
       "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7079",
       "title": "102.07.14 102年07月14日天然災害停止上班及上課情形",
-      "status": "pending"
+      "status": "done",
+      "checkedAt": "2026-10-30T07:28:21.952501+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 102,
+        "month": 7,
+        "day": 14
+      },
+      "dates": [
+        {
+          "rocYear": 102,
+          "month": 7,
+          "day": 14
+        }
+      ],
+      "detailSha256": "a5d69dcba870ab3b5a5350cb589e59ea103c27825bf4e2342d97a2b035fc3ca9",
+      "events": [],
+      "reviewItems": [
+        {
+          "rocYear": 102,
+          "month": 7,
+          "day": 14,
+          "region": "高雄市",
+          "officialText": "高雄市那瑪夏區、桃源區102年7月14日已達停止上班及上課標準。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7079",
+          "ndsUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7079",
+          "pid": "7079",
+          "sourceKind": "archive",
+          "reason": "manual-closure-type",
+          "message": "請手動選擇停止辦公日類別"
+        }
+      ],
+      "observations": [
+        {
+          "pid": "7079",
+          "date": {
+            "rocYear": 102,
+            "month": 7,
+            "day": 14
+          },
+          "region": "高雄市",
+          "disposition": "manual-closure-type",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7079",
+          "rawText": "高雄市那瑪夏區、桃源區102年7月14日已達停止上班及上課標準。 ",
+          "event": null,
+          "reviewItem": {
+            "rocYear": 102,
+            "month": 7,
+            "day": 14,
+            "region": "高雄市",
+            "officialText": "高雄市那瑪夏區、桃源區102年7月14日已達停止上班及上課標準。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7079",
+            "ndsUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=7079",
+            "pid": "7079",
+            "sourceKind": "archive",
+            "reason": "manual-closure-type",
+            "message": "請手動選擇停止辦公日類別"
+          }
+        }
+      ],
+      "dispositions": {
+        "高雄市": "manual-closure-type",
+        "臺南市": "not-listed"
+      },
+      "attachments": [
+        {
+          "kind": "inline",
+          "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7079",
+          "label": "102年07月14日天然災害停止上班及上課情形",
+          "date": {
+            "rocYear": 102,
+            "month": 7,
+            "day": 14
+          },
+          "dateSource": "inline-body",
+          "rawBody": [
+            "苗栗縣泰安鄉、南庄鄉之蓬萊村及東河村102年7月14日已達停止上班及上課標準。 高雄市那瑪夏區、桃源區102年7月14日已達停止上班及上課標準。 新竹縣五峰鄉、尖石鄉102年7月14日已達停止上班及上課標準。"
+          ],
+          "sha256": "a5d69dcba870ab3b5a5350cb589e59ea103c27825bf4e2342d97a2b035fc3ca9"
+        }
+      ],
+      "rawRegionTexts": {
+        "高雄市": "高雄市那瑪夏區、桃源區102年7月14日已達停止上班及上課標準。 ",
+        "臺南市": ""
+      },
+      "attempts": 1
     },
     {
       "pid": "7057",
