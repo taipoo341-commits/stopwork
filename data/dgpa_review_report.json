@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "reviewId": "20261028T102226-f055e35b",
   "status": "in-progress",
-  "phase": "verify",
+  "phase": "publish",
   "parserVersion": "4-eca37b4bf5578172",
   "startedAt": "2026-10-28T18:22:26.495557+08:00",
-  "updatedAt": "2026-10-30T21:18:02.442146+08:00",
+  "updatedAt": "2026-10-30T21:18:04.801198+08:00",
   "completedAt": null,
   "counts": {
     "total": 503,
@@ -15,14 +15,14 @@
     "manualItems": 137
   },
   "scan": {
-    "nextPage": 51,
-    "expectedCount": 503,
-    "expectedPages": 51,
+    "nextPage": 1,
+    "expectedCount": null,
+    "expectedPages": null,
     "complete": false,
     "lastError": ""
   },
   "incrementalErrors": [],
-  "verificationPasses": 0,
+  "verificationPasses": 1,
   "changes": null,
   "announcements": [
     {
