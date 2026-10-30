@@ -5,7 +5,7 @@
   "status": "in-progress",
   "phase": "review",
   "startedAt": "2026-10-28T18:22:26.495557+08:00",
-  "updatedAt": "2026-10-30T14:08:13.339726+08:00",
+  "updatedAt": "2026-10-30T14:08:26.551342+08:00",
   "completedAt": null,
   "announcements": {
     "13130": {
@@ -38716,6 +38716,1015 @@
           "message": "請手動選擇停止辦公日類別"
         }
       ],
+      "attempts": 1
+    },
+    "7007": {
+      "pid": "7007",
+      "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7007",
+      "title": "99.09.02 99年08月31日天然災害停止辦公及上課情形",
+      "status": "done",
+      "checkedAt": "2026-10-30T14:08:15.996021+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 99,
+        "month": 8,
+        "day": 31
+      },
+      "dates": [
+        {
+          "rocYear": 99,
+          "month": 8,
+          "day": 31
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/3fa6fa31-1543-4251-98e9-15e866305e5f.html&nfix=&name=99%e5%b9%b408%e6%9c%8831%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "label": "99年08月31日天然災害停止辦公及上課情形.html",
+          "date": {
+            "rocYear": 99,
+            "month": 8,
+            "day": 31
+          },
+          "dateSource": "attachment-heading",
+          "officialUpdatedAt": "",
+          "sha256": "104f00049a640bc17f714c3338bf2d702903877c1ab4a7fe91f7a7e1159a0dc3",
+          "rawRegionTexts": {
+            "臺南市": "今天照常辦公、照常上課。",
+            "高雄市": "今天照常辦公、照常上課。"
+          },
+          "dispositions": {
+            "高雄市": "no-full-day-closure",
+            "臺南市": "no-full-day-closure"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "7007",
+          "date": {
+            "rocYear": 99,
+            "month": 8,
+            "day": 31
+          },
+          "region": "臺南市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/3fa6fa31-1543-4251-98e9-15e866305e5f.html&nfix=&name=99%e5%b9%b408%e6%9c%8831%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天照常辦公、照常上課。",
+          "event": null,
+          "reviewItem": null
+        },
+        {
+          "pid": "7007",
+          "date": {
+            "rocYear": 99,
+            "month": 8,
+            "day": 31
+          },
+          "region": "高雄市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/3fa6fa31-1543-4251-98e9-15e866305e5f.html&nfix=&name=99%e5%b9%b408%e6%9c%8831%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天照常辦公、照常上課。",
+          "event": null,
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "高雄市": "no-full-day-closure",
+        "臺南市": "no-full-day-closure"
+      },
+      "rawRegionTexts": {
+        "高雄市": "今天照常辦公、照常上課。",
+        "臺南市": "今天照常辦公、照常上課。"
+      },
+      "detailSha256": "27b3576724693b0d274613e2730ed85574c8c743cc0123b77d5f124f87c3613f",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
+    },
+    "6948": {
+      "pid": "6948",
+      "url": "https://www.dgpa.gov.tw/information?uid=374&pid=6948",
+      "title": "98.10.06 98年10月06日天然災害停止辦公及上課情形",
+      "status": "done",
+      "checkedAt": "2026-10-30T14:08:17.191306+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 98,
+        "month": 10,
+        "day": 6
+      },
+      "dates": [
+        {
+          "rocYear": 98,
+          "month": 10,
+          "day": 6
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/4978e745-0ac0-4391-81ee-2bafa15dfaa4.html&nfix=&name=98%e5%b9%b410%e6%9c%8806%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "label": "98年10月06日天然災害停止辦公及上課情形.html",
+          "date": {
+            "rocYear": 98,
+            "month": 10,
+            "day": 6
+          },
+          "dateSource": "attachment-heading",
+          "officialUpdatedAt": "",
+          "sha256": "fd4a1d4edc08aab801909cc901e655660ee1df4aab42e085646995632832db3f",
+          "rawRegionTexts": {
+            "臺南市": "今天照常辦公、照常上課。",
+            "高雄市": "今天照常辦公、照常上課。"
+          },
+          "dispositions": {
+            "高雄市": "no-full-day-closure",
+            "臺南市": "no-full-day-closure"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "6948",
+          "date": {
+            "rocYear": 98,
+            "month": 10,
+            "day": 6
+          },
+          "region": "臺南市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/4978e745-0ac0-4391-81ee-2bafa15dfaa4.html&nfix=&name=98%e5%b9%b410%e6%9c%8806%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天照常辦公、照常上課。",
+          "event": null,
+          "reviewItem": null
+        },
+        {
+          "pid": "6948",
+          "date": {
+            "rocYear": 98,
+            "month": 10,
+            "day": 6
+          },
+          "region": "高雄市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/4978e745-0ac0-4391-81ee-2bafa15dfaa4.html&nfix=&name=98%e5%b9%b410%e6%9c%8806%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天照常辦公、照常上課。",
+          "event": null,
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "高雄市": "no-full-day-closure",
+        "臺南市": "no-full-day-closure"
+      },
+      "rawRegionTexts": {
+        "高雄市": "今天照常辦公、照常上課。",
+        "臺南市": "今天照常辦公、照常上課。"
+      },
+      "detailSha256": "20cce70c538829dc04aba912b7f269284267153c53bcc5842414bdacc2b9777a",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
+    },
+    "6947": {
+      "pid": "6947",
+      "url": "https://www.dgpa.gov.tw/information?uid=374&pid=6947",
+      "title": "98.10.06 98年10月05日天然災害停止辦公及上課情形",
+      "status": "done",
+      "checkedAt": "2026-10-30T14:08:18.338564+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 98,
+        "month": 10,
+        "day": 5
+      },
+      "dates": [
+        {
+          "rocYear": 98,
+          "month": 10,
+          "day": 5
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/cdaea34a-d04d-421e-8abf-a929ef81e730.html&nfix=&name=98%e5%b9%b410%e6%9c%8805%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "label": "98年10月05日天然災害停止辦公及上課情形.html",
+          "date": {
+            "rocYear": 98,
+            "month": 10,
+            "day": 5
+          },
+          "dateSource": "attachment-heading",
+          "officialUpdatedAt": "",
+          "sha256": "d5b256c6adf62d1fb282f595278c604afa6a58952a0398051cc52aa819a220f3",
+          "rawRegionTexts": {
+            "臺南市": "今天照常辦公、照常上課。",
+            "高雄市": "今天照常辦公、照常上課。"
+          },
+          "dispositions": {
+            "高雄市": "no-full-day-closure",
+            "臺南市": "no-full-day-closure"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "6947",
+          "date": {
+            "rocYear": 98,
+            "month": 10,
+            "day": 5
+          },
+          "region": "臺南市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/cdaea34a-d04d-421e-8abf-a929ef81e730.html&nfix=&name=98%e5%b9%b410%e6%9c%8805%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天照常辦公、照常上課。",
+          "event": null,
+          "reviewItem": null
+        },
+        {
+          "pid": "6947",
+          "date": {
+            "rocYear": 98,
+            "month": 10,
+            "day": 5
+          },
+          "region": "高雄市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/cdaea34a-d04d-421e-8abf-a929ef81e730.html&nfix=&name=98%e5%b9%b410%e6%9c%8805%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天照常辦公、照常上課。",
+          "event": null,
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "高雄市": "no-full-day-closure",
+        "臺南市": "no-full-day-closure"
+      },
+      "rawRegionTexts": {
+        "高雄市": "今天照常辦公、照常上課。",
+        "臺南市": "今天照常辦公、照常上課。"
+      },
+      "detailSha256": "4f2f00a020fb9130dc553e5623f70bdb2b0bff77249dbccf6b60e9821ca6e6f6",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
+    },
+    "6946": {
+      "pid": "6946",
+      "url": "https://www.dgpa.gov.tw/information?uid=374&pid=6946",
+      "title": "98.10.06 98年10月04日天然災害停止辦公及上課情形",
+      "status": "done",
+      "checkedAt": "2026-10-30T14:08:19.493347+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 98,
+        "month": 10,
+        "day": 4
+      },
+      "dates": [
+        {
+          "rocYear": 98,
+          "month": 10,
+          "day": 4
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/bc04d947-531e-4b7b-9687-cfc3cd02a0dc.html&nfix=&name=98%e5%b9%b410%e6%9c%8804%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "label": "98年10月04日天然災害停止辦公及上課情形.html",
+          "date": {
+            "rocYear": 98,
+            "month": 10,
+            "day": 4
+          },
+          "dateSource": "attachment-heading",
+          "officialUpdatedAt": "",
+          "sha256": "76d50d076b2de1e1195865e1703221f7660e35accef73d71aa527fea9f58ef21",
+          "rawRegionTexts": {
+            "臺南市": "今天未達停止辦公及上課標準。",
+            "高雄市": "今天未達停止辦公及上課標準。"
+          },
+          "dispositions": {
+            "高雄市": "no-full-day-closure",
+            "臺南市": "no-full-day-closure"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "6946",
+          "date": {
+            "rocYear": 98,
+            "month": 10,
+            "day": 4
+          },
+          "region": "臺南市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/bc04d947-531e-4b7b-9687-cfc3cd02a0dc.html&nfix=&name=98%e5%b9%b410%e6%9c%8804%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天未達停止辦公及上課標準。",
+          "event": null,
+          "reviewItem": null
+        },
+        {
+          "pid": "6946",
+          "date": {
+            "rocYear": 98,
+            "month": 10,
+            "day": 4
+          },
+          "region": "高雄市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/bc04d947-531e-4b7b-9687-cfc3cd02a0dc.html&nfix=&name=98%e5%b9%b410%e6%9c%8804%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天未達停止辦公及上課標準。",
+          "event": null,
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "高雄市": "no-full-day-closure",
+        "臺南市": "no-full-day-closure"
+      },
+      "rawRegionTexts": {
+        "高雄市": "今天未達停止辦公及上課標準。",
+        "臺南市": "今天未達停止辦公及上課標準。"
+      },
+      "detailSha256": "92503d34a88b77f28c4536189412371611d13b93e03b0e69eecb862f43bdf601",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
+    },
+    "6945": {
+      "pid": "6945",
+      "url": "https://www.dgpa.gov.tw/information?uid=374&pid=6945",
+      "title": "98.08.10 98年08月10日天然災害停止辦公及上課情形",
+      "status": "done",
+      "checkedAt": "2026-10-30T14:08:20.651866+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 98,
+        "month": 8,
+        "day": 10
+      },
+      "dates": [
+        {
+          "rocYear": 98,
+          "month": 8,
+          "day": 10
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/9e637875-70f5-497c-98eb-5bd14d879832.html&nfix=&name=98%e5%b9%b408%e6%9c%8810%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "label": "98年08月10日天然災害停止辦公及上課情形.html",
+          "date": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 10
+          },
+          "dateSource": "attachment-heading",
+          "officialUpdatedAt": "",
+          "sha256": "430e3d8a4b493d1bb04b497627869cbfd16cc5e4a3e5c12985d2ced309b5fd00",
+          "rawRegionTexts": {
+            "臺南市": "今天照常辦公、照常上課。 (淹水戶不上班不上課)",
+            "高雄市": "今天照常辦公、照常上課。"
+          },
+          "dispositions": {
+            "高雄市": "no-full-day-closure",
+            "臺南市": "no-full-day-closure"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "6945",
+          "date": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 10
+          },
+          "region": "臺南市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/9e637875-70f5-497c-98eb-5bd14d879832.html&nfix=&name=98%e5%b9%b408%e6%9c%8810%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天照常辦公、照常上課。 (淹水戶不上班不上課)",
+          "event": null,
+          "reviewItem": null
+        },
+        {
+          "pid": "6945",
+          "date": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 10
+          },
+          "region": "高雄市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/9e637875-70f5-497c-98eb-5bd14d879832.html&nfix=&name=98%e5%b9%b408%e6%9c%8810%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天照常辦公、照常上課。",
+          "event": null,
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "高雄市": "no-full-day-closure",
+        "臺南市": "no-full-day-closure"
+      },
+      "rawRegionTexts": {
+        "高雄市": "今天照常辦公、照常上課。",
+        "臺南市": "今天照常辦公、照常上課。 (淹水戶不上班不上課)"
+      },
+      "detailSha256": "bc934216834d37cecc96695f15665a67b25997982ef5ca088e97f0e2084e321b",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
+    },
+    "6944": {
+      "pid": "6944",
+      "url": "https://www.dgpa.gov.tw/information?uid=374&pid=6944",
+      "title": "98.08.10 98年08月09日天然災害停止辦公及上課情形",
+      "status": "done",
+      "checkedAt": "2026-10-30T14:08:21.800451+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 98,
+        "month": 8,
+        "day": 9
+      },
+      "dates": [
+        {
+          "rocYear": 98,
+          "month": 8,
+          "day": 9
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/35a42bb9-a1f4-4517-9ba5-33a3cf4e9e5e.html&nfix=&name=98%e5%b9%b408%e6%9c%8809%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "label": "98年08月09日天然災害停止辦公及上課情形.html",
+          "date": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 9
+          },
+          "dateSource": "attachment-heading",
+          "officialUpdatedAt": "",
+          "sha256": "30a9d1ebb3e7df0aa2ac5bda8c618001c9cd888330e3a95a0c86036e2b57cb5b",
+          "rawRegionTexts": {
+            "臺南市": "今天已達停止辦公及上課標準。",
+            "高雄市": "今天已達停止辦公及上課標準。"
+          },
+          "dispositions": {
+            "高雄市": "full-day",
+            "臺南市": "full-day"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "6944",
+          "date": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 9
+          },
+          "region": "臺南市",
+          "disposition": "full-day",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/35a42bb9-a1f4-4517-9ba5-33a3cf4e9e5e.html&nfix=&name=98%e5%b9%b408%e6%9c%8809%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天已達停止辦公及上課標準。",
+          "event": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 9,
+            "region": "臺南市",
+            "officialText": "今天已達停止辦公及上課標準。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=6944",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/35a42bb9-a1f4-4517-9ba5-33a3cf4e9e5e.html&nfix=&name=98%e5%b9%b408%e6%9c%8809%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+            "pid": "6944",
+            "sourceKind": "archive"
+          },
+          "reviewItem": null
+        },
+        {
+          "pid": "6944",
+          "date": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 9
+          },
+          "region": "高雄市",
+          "disposition": "full-day",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/35a42bb9-a1f4-4517-9ba5-33a3cf4e9e5e.html&nfix=&name=98%e5%b9%b408%e6%9c%8809%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天已達停止辦公及上課標準。",
+          "event": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 9,
+            "region": "高雄市",
+            "officialText": "今天已達停止辦公及上課標準。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=6944",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/35a42bb9-a1f4-4517-9ba5-33a3cf4e9e5e.html&nfix=&name=98%e5%b9%b408%e6%9c%8809%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+            "pid": "6944",
+            "sourceKind": "archive"
+          },
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "高雄市": "full-day",
+        "臺南市": "full-day"
+      },
+      "rawRegionTexts": {
+        "高雄市": "今天已達停止辦公及上課標準。",
+        "臺南市": "今天已達停止辦公及上課標準。"
+      },
+      "detailSha256": "9207cf9ef73279225f6e25214cb6f8f37c099ae1e2b781f3c97f481de5a30254",
+      "events": [
+        {
+          "rocYear": 98,
+          "month": 8,
+          "day": 9,
+          "region": "臺南市",
+          "officialText": "今天已達停止辦公及上課標準。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=6944",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/35a42bb9-a1f4-4517-9ba5-33a3cf4e9e5e.html&nfix=&name=98%e5%b9%b408%e6%9c%8809%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "pid": "6944",
+          "sourceKind": "archive"
+        },
+        {
+          "rocYear": 98,
+          "month": 8,
+          "day": 9,
+          "region": "高雄市",
+          "officialText": "今天已達停止辦公及上課標準。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=6944",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/35a42bb9-a1f4-4517-9ba5-33a3cf4e9e5e.html&nfix=&name=98%e5%b9%b408%e6%9c%8809%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "pid": "6944",
+          "sourceKind": "archive"
+        }
+      ],
+      "reviewItems": [],
+      "attempts": 1
+    },
+    "6943": {
+      "pid": "6943",
+      "url": "https://www.dgpa.gov.tw/information?uid=374&pid=6943",
+      "title": "98.08.10 98年08月08日天然災害停止辦公及上課情形",
+      "status": "done",
+      "checkedAt": "2026-10-30T14:08:22.960143+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 98,
+        "month": 8,
+        "day": 8
+      },
+      "dates": [
+        {
+          "rocYear": 98,
+          "month": 8,
+          "day": 8
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/ab8307fb-bdac-4fbd-894f-fc5bc4400c9c.html&nfix=&name=98%e5%b9%b408%e6%9c%8808%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "label": "98年08月08日天然災害停止辦公及上課情形.html",
+          "date": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 8
+          },
+          "dateSource": "attachment-heading",
+          "officialUpdatedAt": "",
+          "sha256": "e76d9f22bb3c70a618b3631c0f6a1135ad28203fc3285cd0f7b8ad570a06c306",
+          "rawRegionTexts": {
+            "臺南市": "今天已達停止辦公及上課標準。",
+            "高雄市": "今天已達停止辦公及上課標準。"
+          },
+          "dispositions": {
+            "高雄市": "full-day",
+            "臺南市": "full-day"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "6943",
+          "date": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 8
+          },
+          "region": "臺南市",
+          "disposition": "full-day",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/ab8307fb-bdac-4fbd-894f-fc5bc4400c9c.html&nfix=&name=98%e5%b9%b408%e6%9c%8808%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天已達停止辦公及上課標準。",
+          "event": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 8,
+            "region": "臺南市",
+            "officialText": "今天已達停止辦公及上課標準。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=6943",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/ab8307fb-bdac-4fbd-894f-fc5bc4400c9c.html&nfix=&name=98%e5%b9%b408%e6%9c%8808%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+            "pid": "6943",
+            "sourceKind": "archive"
+          },
+          "reviewItem": null
+        },
+        {
+          "pid": "6943",
+          "date": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 8
+          },
+          "region": "高雄市",
+          "disposition": "full-day",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/ab8307fb-bdac-4fbd-894f-fc5bc4400c9c.html&nfix=&name=98%e5%b9%b408%e6%9c%8808%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天已達停止辦公及上課標準。",
+          "event": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 8,
+            "region": "高雄市",
+            "officialText": "今天已達停止辦公及上課標準。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=6943",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/ab8307fb-bdac-4fbd-894f-fc5bc4400c9c.html&nfix=&name=98%e5%b9%b408%e6%9c%8808%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+            "pid": "6943",
+            "sourceKind": "archive"
+          },
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "高雄市": "full-day",
+        "臺南市": "full-day"
+      },
+      "rawRegionTexts": {
+        "高雄市": "今天已達停止辦公及上課標準。",
+        "臺南市": "今天已達停止辦公及上課標準。"
+      },
+      "detailSha256": "fb076af009edc515d8dc61d2c2911844302df25c690dafc72311cbfb8ec880a2",
+      "events": [
+        {
+          "rocYear": 98,
+          "month": 8,
+          "day": 8,
+          "region": "臺南市",
+          "officialText": "今天已達停止辦公及上課標準。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=6943",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/ab8307fb-bdac-4fbd-894f-fc5bc4400c9c.html&nfix=&name=98%e5%b9%b408%e6%9c%8808%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "pid": "6943",
+          "sourceKind": "archive"
+        },
+        {
+          "rocYear": 98,
+          "month": 8,
+          "day": 8,
+          "region": "高雄市",
+          "officialText": "今天已達停止辦公及上課標準。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=6943",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/ab8307fb-bdac-4fbd-894f-fc5bc4400c9c.html&nfix=&name=98%e5%b9%b408%e6%9c%8808%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "pid": "6943",
+          "sourceKind": "archive"
+        }
+      ],
+      "reviewItems": [],
+      "attempts": 1
+    },
+    "6942": {
+      "pid": "6942",
+      "url": "https://www.dgpa.gov.tw/information?uid=374&pid=6942",
+      "title": "98.08.10 98年08月07日天然災害停止辦公及上課情形",
+      "status": "done",
+      "checkedAt": "2026-10-30T14:08:24.144389+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 98,
+        "month": 8,
+        "day": 7
+      },
+      "dates": [
+        {
+          "rocYear": 98,
+          "month": 8,
+          "day": 7
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/9d713c0b-7ac3-4ea3-81f1-2483e8d72503.html&nfix=&name=98%e5%b9%b408%e6%9c%8807%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "label": "98年08月07日天然災害停止辦公及上課情形.html",
+          "date": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 7
+          },
+          "dateSource": "attachment-heading",
+          "officialUpdatedAt": "",
+          "sha256": "34486c8c57e579c7079ebb91ecfade527f4c875a5e262c4f85af30d019a68327",
+          "rawRegionTexts": {
+            "臺南市": "今天停止辦公、停止上課。",
+            "高雄市": "今天停止辦公、停止上課。"
+          },
+          "dispositions": {
+            "高雄市": "full-day",
+            "臺南市": "full-day"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "6942",
+          "date": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 7
+          },
+          "region": "臺南市",
+          "disposition": "full-day",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/9d713c0b-7ac3-4ea3-81f1-2483e8d72503.html&nfix=&name=98%e5%b9%b408%e6%9c%8807%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天停止辦公、停止上課。",
+          "event": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 7,
+            "region": "臺南市",
+            "officialText": "今天停止辦公、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=6942",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/9d713c0b-7ac3-4ea3-81f1-2483e8d72503.html&nfix=&name=98%e5%b9%b408%e6%9c%8807%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+            "pid": "6942",
+            "sourceKind": "archive"
+          },
+          "reviewItem": null
+        },
+        {
+          "pid": "6942",
+          "date": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 7
+          },
+          "region": "高雄市",
+          "disposition": "full-day",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/9d713c0b-7ac3-4ea3-81f1-2483e8d72503.html&nfix=&name=98%e5%b9%b408%e6%9c%8807%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天停止辦公、停止上課。",
+          "event": {
+            "rocYear": 98,
+            "month": 8,
+            "day": 7,
+            "region": "高雄市",
+            "officialText": "今天停止辦公、停止上課。",
+            "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=6942",
+            "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/9d713c0b-7ac3-4ea3-81f1-2483e8d72503.html&nfix=&name=98%e5%b9%b408%e6%9c%8807%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+            "pid": "6942",
+            "sourceKind": "archive"
+          },
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "高雄市": "full-day",
+        "臺南市": "full-day"
+      },
+      "rawRegionTexts": {
+        "高雄市": "今天停止辦公、停止上課。",
+        "臺南市": "今天停止辦公、停止上課。"
+      },
+      "detailSha256": "049345ac0faa49c894c203173d70d7aeebe8d1d5ff93397d234d0a524c7d412f",
+      "events": [
+        {
+          "rocYear": 98,
+          "month": 8,
+          "day": 7,
+          "region": "臺南市",
+          "officialText": "今天停止辦公、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=6942",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/9d713c0b-7ac3-4ea3-81f1-2483e8d72503.html&nfix=&name=98%e5%b9%b408%e6%9c%8807%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "pid": "6942",
+          "sourceKind": "archive"
+        },
+        {
+          "rocYear": 98,
+          "month": 8,
+          "day": 7,
+          "region": "高雄市",
+          "officialText": "今天停止辦公、停止上課。",
+          "officialUrl": "https://www.dgpa.gov.tw/information?uid=374&pid=6942",
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/9d713c0b-7ac3-4ea3-81f1-2483e8d72503.html&nfix=&name=98%e5%b9%b408%e6%9c%8807%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "pid": "6942",
+          "sourceKind": "archive"
+        }
+      ],
+      "reviewItems": [],
+      "attempts": 1
+    },
+    "7006": {
+      "pid": "7006",
+      "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7006",
+      "title": "98.06.22 98年06月22日天然災害停止辦公及上課情形",
+      "status": "done",
+      "checkedAt": "2026-10-30T14:08:25.323782+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 98,
+        "month": 6,
+        "day": 22
+      },
+      "dates": [
+        {
+          "rocYear": 98,
+          "month": 6,
+          "day": 22
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/34efb328-e24b-4988-bf86-a7ac4d0521ad.html&nfix=&name=98%e5%b9%b406%e6%9c%8822%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "label": "98年06月22日天然災害停止辦公及上課情形.html",
+          "date": {
+            "rocYear": 98,
+            "month": 6,
+            "day": 22
+          },
+          "dateSource": "attachment-heading",
+          "officialUpdatedAt": "",
+          "sha256": "9932ccf7a595f12422f57d3c491d7ad74a4b3be1fdf632ba508f55dc3114da8f",
+          "rawRegionTexts": {
+            "臺南市": "今天照常辦公、照常上課。",
+            "高雄市": "今天照常辦公、照常上課。"
+          },
+          "dispositions": {
+            "高雄市": "no-full-day-closure",
+            "臺南市": "no-full-day-closure"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "7006",
+          "date": {
+            "rocYear": 98,
+            "month": 6,
+            "day": 22
+          },
+          "region": "臺南市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/34efb328-e24b-4988-bf86-a7ac4d0521ad.html&nfix=&name=98%e5%b9%b406%e6%9c%8822%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天照常辦公、照常上課。",
+          "event": null,
+          "reviewItem": null
+        },
+        {
+          "pid": "7006",
+          "date": {
+            "rocYear": 98,
+            "month": 6,
+            "day": 22
+          },
+          "region": "高雄市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/34efb328-e24b-4988-bf86-a7ac4d0521ad.html&nfix=&name=98%e5%b9%b406%e6%9c%8822%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天照常辦公、照常上課。",
+          "event": null,
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "高雄市": "no-full-day-closure",
+        "臺南市": "no-full-day-closure"
+      },
+      "rawRegionTexts": {
+        "高雄市": "今天照常辦公、照常上課。",
+        "臺南市": "今天照常辦公、照常上課。"
+      },
+      "detailSha256": "44989b22fefa649cffc2ec11b05e0909f9530f41310a8845676e09d4857ae780",
+      "events": [],
+      "reviewItems": [],
+      "attempts": 1
+    },
+    "7005": {
+      "pid": "7005",
+      "url": "https://www.dgpa.gov.tw/information?uid=374&pid=7005",
+      "title": "98.06.22 98年06月21日天然災害停止辦公及上課情形",
+      "status": "done",
+      "checkedAt": "2026-10-30T14:08:26.551260+08:00",
+      "parserVersion": "4-eca37b4bf5578172",
+      "date": {
+        "rocYear": 98,
+        "month": 6,
+        "day": 21
+      },
+      "dates": [
+        {
+          "rocYear": 98,
+          "month": 6,
+          "day": 21
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/c0497d64-b985-430f-93d2-1912d2ac85d2.html&nfix=&name=98%e5%b9%b406%e6%9c%8821%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "label": "98年06月21日天然災害停止辦公及上課情形.html",
+          "date": {
+            "rocYear": 98,
+            "month": 6,
+            "day": 21
+          },
+          "dateSource": "attachment-heading",
+          "officialUpdatedAt": "",
+          "sha256": "0c1f1bc356a98675b9494e5e9e51ab09778578053f00af0507fe62299087254c",
+          "rawRegionTexts": {
+            "臺南市": "今天未達停止辦公及上課標準。",
+            "高雄市": "今天未達停止辦公及上課標準。"
+          },
+          "dispositions": {
+            "高雄市": "no-full-day-closure",
+            "臺南市": "no-full-day-closure"
+          }
+        }
+      ],
+      "observations": [
+        {
+          "pid": "7005",
+          "date": {
+            "rocYear": 98,
+            "month": 6,
+            "day": 21
+          },
+          "region": "臺南市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/c0497d64-b985-430f-93d2-1912d2ac85d2.html&nfix=&name=98%e5%b9%b406%e6%9c%8821%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天未達停止辦公及上課標準。",
+          "event": null,
+          "reviewItem": null
+        },
+        {
+          "pid": "7005",
+          "date": {
+            "rocYear": 98,
+            "month": 6,
+            "day": 21
+          },
+          "region": "高雄市",
+          "disposition": "no-full-day-closure",
+          "officialUpdatedAt": "",
+          "attachmentOrder": 0,
+          "ndsUrl": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/c0497d64-b985-430f-93d2-1912d2ac85d2.html&nfix=&name=98%e5%b9%b406%e6%9c%8821%e6%97%a5%e5%a4%a9%e7%84%b6%e7%81%bd%e5%ae%b3%e5%81%9c%e6%ad%a2%e8%be%a6%e5%85%ac%e5%8f%8a%e4%b8%8a%e8%aa%b2%e6%83%85%e5%bd%a2.html",
+          "rawText": "今天未達停止辦公及上課標準。",
+          "event": null,
+          "reviewItem": null
+        }
+      ],
+      "dispositions": {
+        "高雄市": "no-full-day-closure",
+        "臺南市": "no-full-day-closure"
+      },
+      "rawRegionTexts": {
+        "高雄市": "今天未達停止辦公及上課標準。",
+        "臺南市": "今天未達停止辦公及上課標準。"
+      },
+      "detailSha256": "9349df63edeb93b9cda0bfebff84c794a63326a9e0200cb519b2752c26337571",
+      "events": [],
+      "reviewItems": [],
       "attempts": 1
     }
   },
