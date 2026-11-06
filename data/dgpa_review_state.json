@@ -5,7 +5,7 @@
   "status": "completed",
   "phase": "completed",
   "startedAt": "2026-10-28T18:22:26.495557+08:00",
-  "updatedAt": "2026-11-07T00:04:42.466178+08:00",
+  "updatedAt": "2026-11-07T05:41:28.206329+08:00",
   "completedAt": "2026-10-30T21:18:06.424714+08:00",
   "announcements": {
     "13130": {
@@ -45155,12 +45155,7 @@
   },
   "pagesScanned": 51,
   "verificationPasses": 1,
-  "incrementalErrors": [
-    {
-      "url": "https://www.dgpa.gov.tw/typh/daily/nds.html",
-      "error": "網頁異常，請改手動輸入"
-    }
-  ],
+  "incrementalErrors": [],
   "verifiedAt": "2026-10-30T21:18:04.744365+08:00",
   "changes": {
     "added": [],
