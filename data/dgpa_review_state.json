@@ -5,7 +5,7 @@
   "status": "completed",
   "phase": "completed",
   "startedAt": "2026-10-28T18:22:26.495557+08:00",
-  "updatedAt": "2026-11-16T10:55:09.796957+08:00",
+  "updatedAt": "2026-11-16T19:50:12.928091+08:00",
   "completedAt": "2026-10-30T21:18:06.424714+08:00",
   "announcements": {
     "13130": {
@@ -45155,7 +45155,12 @@
   },
   "pagesScanned": 51,
   "verificationPasses": 1,
-  "incrementalErrors": [],
+  "incrementalErrors": [
+    {
+      "url": "https://www.dgpa.gov.tw/informationlist?uid=374&page=1",
+      "error": "ValueError: Archive pagination/count cannot be verified"
+    }
+  ],
   "verifiedAt": "2026-10-30T21:18:04.744365+08:00",
   "changes": {
     "added": [],
